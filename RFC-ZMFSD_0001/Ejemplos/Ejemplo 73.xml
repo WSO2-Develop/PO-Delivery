@@ -10,7 +10,6 @@
 			</env:messageIdentifier>
 		</env:UNH>
 		<orders:ORDERS>
-
 			<orders:BGM>
 				<c:C002>
 					<c:e1001>220</c:e1001>
@@ -19,7 +18,6 @@
 				<c:e1004>8800420016</c:e1004>
 				<c:e1225>9</c:e1225>
 			</orders:BGM>
-			
 			<orders:DTM>
 				<c:C507>
 					<c:e2005>137</c:e2005>
@@ -27,23 +25,20 @@
 					<c:e2379>102</c:e2379>
 				</c:C507>
 			</orders:DTM>
-			
 			<orders:DTM>
 				<c:C507>
 					<c:e2005>43E</c:e2005>
 					<c:e2380>20140624</c:e2380>
 					<c:e2379>102</c:e2379>
 				</c:C507>
-			</orders:DTM>
-			
+			</orders:DTM>			
 			<orders:DTM>
 				<c:C507>
 					<c:e2005>10</c:e2005>
 					<c:e2380>20140616</c:e2380>
 					<c:e2379>102</c:e2379>
 				</c:C507>
-			</orders:DTM>
-			
+			</orders:DTM>			
 			<orders:FTX>
 				<c:e4451>SPH</c:e4451>
 				<c:C108>
