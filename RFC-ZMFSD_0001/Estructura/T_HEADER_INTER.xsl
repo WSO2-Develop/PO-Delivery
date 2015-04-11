@@ -91,13 +91,11 @@
 								<field name="NAME1"><!-- Nombre -->
 									<xsl:value-of select="orders:NAD/c:C080"/>
 								</field>
-								
 								<field name="ZVENDOR"><!-- vendor -->
 									<xsl:if test="orders:Segment_group_3/orders:RFF/c:C506/c:e1153 = 'IA'">
 										<xsl:value-of select="orders:Segment_group_3/orders:RFF/c:C506/c:e1154"/>	
 									</xsl:if>
 								</field>
-								
 							</row>
 						</xsl:if>
 					</xsl:for-each>
