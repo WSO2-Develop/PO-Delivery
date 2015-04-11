@@ -4,7 +4,7 @@
 	xmlns:env="urn:org.milyn.edi.unedifact.v41" xmlns:orders="urn:org.milyn.edi.unedifact:un:d96a:orders"
 	xmlns:c="urn:org.milyn.edi.unedifact:un:d96a:common"
 	exclude-result-prefixes="soapenv env orders c">
-
+ 
 	<xsl:strip-space elements="*" />
 	<xsl:output method="xml" version="1.0" encoding="UTF-8"
 		indent="yes" omit-xml-declaration="yes" />
