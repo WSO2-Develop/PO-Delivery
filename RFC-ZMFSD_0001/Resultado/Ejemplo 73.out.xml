@@ -1,18 +1,54 @@
 <root>
 <bapirfc name="ZMFSD_0001">
 <tables>
-<table name="T_HEADER">
+<table name="T_HEADER_INTER">
 <row id="0">
 <field name="BSTKD">8800420016</field>
-<field name="BSTDK">20140616</field>
-<field name="BSTDK_E">20140624</field>
-<field name="VDATU">20140616</field>
-<field name="ZDEP">11</field>
-<field name="ZTPO">73</field>
-<field name="ZMPO">POS REPLEN</field>
-<field name="WAERK">CLP</field>
-<field name="ZTERM">3</field>
-<field name="ZMODP">D</field>
+<field name="ZTIPO">ST</field>
+<field name="EXPNR">			
+									Entra FOR
+												
+									Entra FOR
+									
+										Entra ZZZ
+										
+												Entra 73
+												
+														
+									Entra FOR
+									</field>
+</row>
+<row id="1">
+<field name="BSTKD">8800420016</field>
+<field name="ZTIPO">BT</field>
+<field name="EXPNR">			
+									Entra FOR
+												
+									Entra FOR
+									
+										Entra ZZZ
+										
+												Entra 73
+												
+														
+									Entra FOR
+									</field>
+</row>
+<row id="2">
+<field name="BSTKD">8800420016</field>
+<field name="ZTIPO">SF</field>
+<field name="EXPNR">			
+									Entra FOR
+												
+									Entra FOR
+									
+										Entra ZZZ
+										
+												Entra 73
+												
+														
+									Entra FOR
+									</field>
 </row>
 </table>
 </tables>
