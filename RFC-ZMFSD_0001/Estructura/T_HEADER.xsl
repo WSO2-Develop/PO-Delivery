@@ -26,12 +26,12 @@
 			
 				<!-- T_HEADER -->
 				<table name="T_HEADER">
-					<xsl:for-each select="orders:BGM">
+					<xsl:for-each select=".">
 						<row id="{position() - 1}">
 							<field name="BSTKD"><!-- Nro de orden -->
-								<xsl:value-of select="c:e1004" />
+								<xsl:value-of select="orders:BGM/c:e1004" />
 							</field>
-							<xsl:for-each select="parent::*/orders:DTM/c:C507">
+							<xsl:for-each select="orders:DTM/c:C507">
 								<xsl:choose>
 									<xsl:when test="c:e2005 = 137">
 										<field name="BSTDK"><!-- Fecha de pedido -->
@@ -51,7 +51,7 @@
 								</xsl:choose>
 							</xsl:for-each>
 							<xsl:for-each
-								select="parent::*/orders:Segment_group_1/orders:RFF/c:C506">
+								select="orders:Segment_group_1/orders:RFF/c:C506">
 								<xsl:choose>
 									<xsl:when test="c:e1153 = 'SD'">
 										<field name="ZDEP"><!-- Departamento -->
@@ -73,15 +73,15 @@
 							</xsl:for-each>
 							<field name="WAERK"><!-- Moneda -->
 								<xsl:value-of
-									select="parent::*/orders:Segment_group_7/orders:CUX/c:C504_-_-1/c:e6345" />
+									select="orders:Segment_group_7/orders:CUX/c:C504_-_-1/c:e6345" />
 							</field>
 							<field name="ZTERM"><!-- Cond de pago -->
 								<xsl:value-of
-									select="parent::*/orders:Segment_group_8/orders:PAT/c:C112/c:e2009" />
+									select="orders:Segment_group_8/orders:PAT/c:C112/c:e2009" />
 							</field>
 							<field name="ZMODP"><!-- Modo Pago -->
 								<xsl:value-of
-									select="parent::*/orders:Segment_group_8/orders:PAT/c:C112/c:e2151" />
+									select="orders:Segment_group_8/orders:PAT/c:C112/c:e2151" />
 							</field>
 						</row>
 					</xsl:for-each>
