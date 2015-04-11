@@ -7,7 +7,7 @@
 
 	<xsl:strip-space elements="*" />
 	<xsl:output method="xml" version="1.0" encoding="UTF-8"
-		indent="yes" omit-xml-declaration="yes" />
+	 	indent="yes" omit-xml-declaration="yes" />
 
 	<xsl:template match="/">
 		<root>
