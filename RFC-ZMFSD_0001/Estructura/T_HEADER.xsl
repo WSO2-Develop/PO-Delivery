@@ -87,7 +87,7 @@
 					</xsl:for-each>
 				</table>
 				<!-- -->
-
+				
 			</tables>
 		</bapirfc>
 
