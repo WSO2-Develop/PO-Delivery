@@ -25,7 +25,7 @@
 			<tables>
 			
 				<!-- T_DETAIL_ITEM -->
-				<table name="T_DETAIL_GRAL">
+				<table name="T_DETAIL_ITEM">
 					<xsl:for-each select="orders:Segment_group_25">
 						<row id="{position() - 1}">
 							<field name="BSTKD"><!-- Nro de orden -->
