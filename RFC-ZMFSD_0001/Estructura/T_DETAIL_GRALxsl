@@ -33,7 +33,7 @@
 							</field>
 							
 							
-							<field name="POSNR">
+							<!-- <field name="POSNR">
 								<xsl:value-of select="Line_item/Line_item_number"/>
 							</field>
 						
@@ -75,7 +75,7 @@
 						
 							<field name="ZPACL">
 								<xsl:value-of select="Segment_group_30/Package/PACKAGING_DETAILS/Packaging_level__coded"/>
-							</field>
+							</field> -->
 							
 						</row>
 					</xsl:for-each>
