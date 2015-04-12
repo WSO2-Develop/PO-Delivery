@@ -24,7 +24,7 @@
 		<bapirfc name="ZMFSD_0001">
 			<tables>
 			
-				<!-- T_HEADER_INTER -->
+				<!-- T_DETAIL_GRAL -->
 				<table name="T_DETAIL_GRAL">
 					<xsl:for-each select="orders:Segment_group_25">
 						<row id="{position() - 1}">
