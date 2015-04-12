@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet version="2.0"
+<xsl:stylesheet version="1.0"
 	xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
 	xmlns:env="urn:org.milyn.edi.unedifact.v41" xmlns:orders="urn:org.milyn.edi.unedifact:un:d96a:orders"
 	xmlns:c="urn:org.milyn.edi.unedifact:un:d96a:common"
@@ -33,7 +33,7 @@
 							</field>
 							<xsl:for-each select="parent::*/orders:DTM/c:C507">
 								<xsl:choose>
-									<xsl:when test="c:e2005 = 137">
+									<xsl:when test="c:e2005 = '137'">
 										<field name="BSTDK"><!-- Fecha de pedido -->
 											<xsl:value-of select="c:e2380" />
 										</field>
@@ -43,7 +43,7 @@
 											<xsl:value-of select="c:e2380" />
 										</field>
 									</xsl:when>
-									<xsl:when test="c:e2005 = 10">
+									<xsl:when test="c:e2005 = '10'">
 										<field name="VDATU"><!-- Fecha de despacho -->
 											<xsl:value-of select="c:e2380" />
 										</field>
@@ -63,12 +63,13 @@
 											<xsl:value-of select="c:e1154" />
 										</field>
 									</xsl:when>
-									<xsl:when test="c:e1153 = 'PD'">
+									<xsl:otherwise>
+									<!-- <xsl:when test="c:e1153 = 'PD'"> -->
 										<field name="ZMPO"><!-- Descripcion de Orden de compra -->
 											<xsl:value-of select="c:e1154" />
 										</field>
-									</xsl:when>
-									<xsl:otherwise />
+									<!-- </xsl:when> -->
+									</xsl:otherwise>
 								</xsl:choose>
 							</xsl:for-each>
 							<field name="WAERK"><!-- Moneda -->
