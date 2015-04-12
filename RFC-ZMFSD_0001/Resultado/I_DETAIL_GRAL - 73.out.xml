@@ -1,0 +1,11 @@
+<root>
+<bapirfc name="ZMFSD_0001">
+<tables>
+<table name="T_DETAIL_GRAL">
+<row id="0">
+<field name="BSTKD">8800420016</field>
+</row>
+</table>
+</tables>
+</bapirfc>
+</root>
