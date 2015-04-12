@@ -1,0 +1,2266 @@
+<root>
+<bapirfc name="ZMFSD_0001">
+<tables>
+<table name="T_HEADER">
+<row id="0">
+<field name="BSTKD">4800431546</field>
+<field name="BSTDK">20140616</field>
+<field name="BSTDK_E">20140618</field>
+<field name="VDATU">20140616</field>
+<field name="ZDEP">91</field>
+<field name="ZTPO">07</field>
+<field name="ZMPO">FBBABYWK04</field>
+<field name="WAERK">CLP</field>
+<field name="ZTERM">3</field>
+<field name="ZMODP">D</field>
+</row>
+</table>
+<table name="T_HEADER_INTER">
+<row id="0">
+<field name="BSTKD">4800431546</field>
+<field name="ZTIPO">FR</field>
+<field name="EXPNR">7807900000085</field>
+<field name="NAME1">WALMART STORES CHILE</field>
+<field name="ZVENDOR"/>
+</row>
+<row id="1">
+<field name="BSTKD">4800431546</field>
+<field name="ZTIPO">SF</field>
+<field name="EXPNR">000433910</field>
+<field name="NAME1">NESTLE CHILE SA</field>
+<field name="ZVENDOR">000433910</field>
+</row>
+</table>
+<table name="T_DETAIL_GRAL">
+<row id="0">
+<field name="BSTKD">4800431546</field>
+<field name="POSNR">1</field>
+<field name="KDMAT">17802710835152</field>
+<field name="ZDMAT">000103818</field>
+<field name="ZVENDOR">123662</field>
+<field name="ZMENG">2</field>
+<field name="ZPREC">15048</field>
+<field name="NETWR">7524</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">6</field>
+<field name="ZPACL">3</field>
+</row>
+<row id="1">
+<field name="BSTKD">4800431546</field>
+<field name="POSNR">2</field>
+<field name="KDMAT">17802710350501</field>
+<field name="ZDMAT">000105106</field>
+<field name="ZVENDOR">12018554</field>
+<field name="ZMENG">1</field>
+<field name="ZPREC">7524</field>
+<field name="NETWR">7524</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">6</field>
+<field name="ZPACL">3</field>
+</row>
+<row id="2">
+<field name="BSTKD">4800431546</field>
+<field name="POSNR">3</field>
+<field name="KDMAT">7613031238224</field>
+<field name="ZDMAT">000105123</field>
+<field name="ZVENDOR">12018322</field>
+<field name="ZMENG">1</field>
+<field name="ZPREC">7524</field>
+<field name="NETWR">7524</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">6</field>
+<field name="ZPACL">3</field>
+</row>
+<row id="3">
+<field name="BSTKD">4800431546</field>
+<field name="POSNR">4</field>
+<field name="KDMAT">17802710566247</field>
+<field name="ZDMAT">000406581</field>
+<field name="ZVENDOR">12114481</field>
+<field name="ZMENG">2</field>
+<field name="ZPREC">17316</field>
+<field name="NETWR">8658</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">6</field>
+<field name="ZPACL">3</field>
+</row>
+<row id="4">
+<field name="BSTKD">4800431546</field>
+<field name="POSNR">5</field>
+<field name="KDMAT">7613032657192</field>
+<field name="ZDMAT">000490331</field>
+<field name="ZVENDOR">12112705</field>
+<field name="ZMENG">2</field>
+<field name="ZPREC">15048</field>
+<field name="NETWR">7524</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">6</field>
+<field name="ZPACL">3</field>
+</row>
+<row id="5">
+<field name="BSTKD">4800431546</field>
+<field name="POSNR">6</field>
+<field name="KDMAT">17802710566230</field>
+<field name="ZDMAT">000490334</field>
+<field name="ZVENDOR">12114454</field>
+<field name="ZMENG">2</field>
+<field name="ZPREC">17316</field>
+<field name="NETWR">8658</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">6</field>
+<field name="ZPACL">3</field>
+</row>
+</table>
+<table name="T_DETAIL_ITEM">
+<row id="0">
+<field name="BSTKD">4800431546</field>
+<field name="POSNR">1</field>
+<field name="KDMAT">17802710835152</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC"/>
+</row>
+<row id="1">
+<field name="BSTKD">4800431546</field>
+<field name="POSNR">2</field>
+<field name="KDMAT">17802710350501</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC"/>
+</row>
+<row id="2">
+<field name="BSTKD">4800431546</field>
+<field name="POSNR">3</field>
+<field name="KDMAT">7613031238224</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC"/>
+</row>
+<row id="3">
+<field name="BSTKD">4800431546</field>
+<field name="POSNR">4</field>
+<field name="KDMAT">17802710566247</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC"/>
+</row>
+<row id="4">
+<field name="BSTKD">4800431546</field>
+<field name="POSNR">5</field>
+<field name="KDMAT">7613032657192</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC"/>
+</row>
+<row id="5">
+<field name="BSTKD">4800431546</field>
+<field name="POSNR">6</field>
+<field name="KDMAT">17802710566230</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC"/>
+</row>
+</table>
+<table name="T_DETAIL_INTER">
+<row id="0">
+<field name="BSTKD">4800431546</field>
+<field name="POSNR">1</field>
+<field name="EXPNR">7807900000085</field>
+<field name="ZMENG">2</field>
+</row>
+<row id="1">
+<field name="BSTKD">4800431546</field>
+<field name="POSNR">2</field>
+<field name="EXPNR">7807900000085</field>
+<field name="ZMENG">1</field>
+</row>
+<row id="2">
+<field name="BSTKD">4800431546</field>
+<field name="POSNR">3</field>
+<field name="EXPNR">7807900000085</field>
+<field name="ZMENG">1</field>
+</row>
+<row id="3">
+<field name="BSTKD">4800431546</field>
+<field name="POSNR">4</field>
+<field name="EXPNR">7807900000085</field>
+<field name="ZMENG">2</field>
+</row>
+<row id="4">
+<field name="BSTKD">4800431546</field>
+<field name="POSNR">5</field>
+<field name="EXPNR">7807900000085</field>
+<field name="ZMENG">2</field>
+</row>
+<row id="5">
+<field name="BSTKD">4800431546</field>
+<field name="POSNR">6</field>
+<field name="EXPNR">7807900000085</field>
+<field name="ZMENG">2</field>
+</row>
+</table>
+</tables>
+</bapirfc>
+<bapirfc name="ZMFSD_0001">
+<tables>
+<table name="T_HEADER">
+<row id="0">
+<field name="BSTKD">4800431547</field>
+<field name="BSTDK">20140616</field>
+<field name="BSTDK_E">20140618</field>
+<field name="VDATU">20140616</field>
+<field name="ZDEP">91</field>
+<field name="ZTPO">07</field>
+<field name="ZMPO">FBBABYWK04</field>
+<field name="WAERK">CLP</field>
+<field name="ZTERM">3</field>
+<field name="ZMODP">D</field>
+</row>
+</table>
+<table name="T_HEADER_INTER">
+<row id="0">
+<field name="BSTKD">4800431547</field>
+<field name="ZTIPO">FR</field>
+<field name="EXPNR">7807900000146</field>
+<field name="NAME1">WALMART STORES CHILE</field>
+<field name="ZVENDOR"/>
+</row>
+<row id="1">
+<field name="BSTKD">4800431547</field>
+<field name="ZTIPO">SF</field>
+<field name="EXPNR">000433910</field>
+<field name="NAME1">NESTLE CHILE SA</field>
+<field name="ZVENDOR">000433910</field>
+</row>
+</table>
+<table name="T_DETAIL_GRAL">
+<row id="0">
+<field name="BSTKD">4800431547</field>
+<field name="POSNR">1</field>
+<field name="KDMAT">17802710350501</field>
+<field name="ZDMAT">000105106</field>
+<field name="ZVENDOR">12018554</field>
+<field name="ZMENG">1</field>
+<field name="ZPREC">7524</field>
+<field name="NETWR">7524</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">6</field>
+<field name="ZPACL">3</field>
+</row>
+<row id="1">
+<field name="BSTKD">4800431547</field>
+<field name="POSNR">2</field>
+<field name="KDMAT">17802710832151</field>
+<field name="ZDMAT">000105119</field>
+<field name="ZVENDOR">12018364</field>
+<field name="ZMENG">1</field>
+<field name="ZPREC">7524</field>
+<field name="NETWR">7524</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">6</field>
+<field name="ZPACL">3</field>
+</row>
+<row id="2">
+<field name="BSTKD">4800431547</field>
+<field name="POSNR">3</field>
+<field name="KDMAT">7613031238224</field>
+<field name="ZDMAT">000105123</field>
+<field name="ZVENDOR">12018322</field>
+<field name="ZMENG">1</field>
+<field name="ZPREC">7524</field>
+<field name="NETWR">7524</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">6</field>
+<field name="ZPACL">3</field>
+</row>
+<row id="3">
+<field name="BSTKD">4800431547</field>
+<field name="POSNR">4</field>
+<field name="KDMAT">17802710566247</field>
+<field name="ZDMAT">000406581</field>
+<field name="ZVENDOR">12114481</field>
+<field name="ZMENG">1</field>
+<field name="ZPREC">8658</field>
+<field name="NETWR">8658</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">6</field>
+<field name="ZPACL">3</field>
+</row>
+<row id="4">
+<field name="BSTKD">4800431547</field>
+<field name="POSNR">5</field>
+<field name="KDMAT">7613031246212</field>
+<field name="ZDMAT">000406582</field>
+<field name="ZVENDOR">12114491</field>
+<field name="ZMENG">1</field>
+<field name="ZPREC">7938</field>
+<field name="NETWR">7938</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">6</field>
+<field name="ZPACL">3</field>
+</row>
+<row id="5">
+<field name="BSTKD">4800431547</field>
+<field name="POSNR">6</field>
+<field name="KDMAT">17802710566216</field>
+<field name="ZDMAT">000406590</field>
+<field name="ZVENDOR">12114456</field>
+<field name="ZMENG">1</field>
+<field name="ZPREC">7938</field>
+<field name="NETWR">7938</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">6</field>
+<field name="ZPACL">3</field>
+</row>
+<row id="6">
+<field name="BSTKD">4800431547</field>
+<field name="POSNR">7</field>
+<field name="KDMAT">7613032657192</field>
+<field name="ZDMAT">000490331</field>
+<field name="ZVENDOR">12112705</field>
+<field name="ZMENG">1</field>
+<field name="ZPREC">7524</field>
+<field name="NETWR">7524</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">6</field>
+<field name="ZPACL">3</field>
+</row>
+<row id="7">
+<field name="BSTKD">4800431547</field>
+<field name="POSNR">8</field>
+<field name="KDMAT">17802710835114</field>
+<field name="ZDMAT">000490332</field>
+<field name="ZVENDOR">12018422</field>
+<field name="ZMENG">1</field>
+<field name="ZPREC">7524</field>
+<field name="NETWR">7524</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">6</field>
+<field name="ZPACL">3</field>
+</row>
+<row id="8">
+<field name="BSTKD">4800431547</field>
+<field name="POSNR">9</field>
+<field name="KDMAT">7613032627096</field>
+<field name="ZDMAT">000490333</field>
+<field name="ZVENDOR">12110138</field>
+<field name="ZMENG">1</field>
+<field name="ZPREC">7524</field>
+<field name="NETWR">7524</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">6</field>
+<field name="ZPACL">3</field>
+</row>
+<row id="9">
+<field name="BSTKD">4800431547</field>
+<field name="POSNR">10</field>
+<field name="KDMAT">17802710566230</field>
+<field name="ZDMAT">000490334</field>
+<field name="ZVENDOR">12114454</field>
+<field name="ZMENG">1</field>
+<field name="ZPREC">8658</field>
+<field name="NETWR">8658</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">6</field>
+<field name="ZPACL">3</field>
+</row>
+</table>
+<table name="T_DETAIL_ITEM">
+<row id="0">
+<field name="BSTKD">4800431547</field>
+<field name="POSNR">1</field>
+<field name="KDMAT">17802710350501</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC"/>
+</row>
+<row id="1">
+<field name="BSTKD">4800431547</field>
+<field name="POSNR">2</field>
+<field name="KDMAT">17802710832151</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC"/>
+</row>
+<row id="2">
+<field name="BSTKD">4800431547</field>
+<field name="POSNR">3</field>
+<field name="KDMAT">7613031238224</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC"/>
+</row>
+<row id="3">
+<field name="BSTKD">4800431547</field>
+<field name="POSNR">4</field>
+<field name="KDMAT">17802710566247</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC"/>
+</row>
+<row id="4">
+<field name="BSTKD">4800431547</field>
+<field name="POSNR">5</field>
+<field name="KDMAT">7613031246212</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC"/>
+</row>
+<row id="5">
+<field name="BSTKD">4800431547</field>
+<field name="POSNR">6</field>
+<field name="KDMAT">17802710566216</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC"/>
+</row>
+<row id="6">
+<field name="BSTKD">4800431547</field>
+<field name="POSNR">7</field>
+<field name="KDMAT">7613032657192</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC"/>
+</row>
+<row id="7">
+<field name="BSTKD">4800431547</field>
+<field name="POSNR">8</field>
+<field name="KDMAT">17802710835114</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC"/>
+</row>
+<row id="8">
+<field name="BSTKD">4800431547</field>
+<field name="POSNR">9</field>
+<field name="KDMAT">7613032627096</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC"/>
+</row>
+<row id="9">
+<field name="BSTKD">4800431547</field>
+<field name="POSNR">10</field>
+<field name="KDMAT">17802710566230</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC"/>
+</row>
+</table>
+<table name="T_DETAIL_INTER">
+<row id="0">
+<field name="BSTKD">4800431547</field>
+<field name="POSNR">1</field>
+<field name="EXPNR">7807900000146</field>
+<field name="ZMENG">1</field>
+</row>
+<row id="1">
+<field name="BSTKD">4800431547</field>
+<field name="POSNR">2</field>
+<field name="EXPNR">7807900000146</field>
+<field name="ZMENG">1</field>
+</row>
+<row id="2">
+<field name="BSTKD">4800431547</field>
+<field name="POSNR">3</field>
+<field name="EXPNR">7807900000146</field>
+<field name="ZMENG">1</field>
+</row>
+<row id="3">
+<field name="BSTKD">4800431547</field>
+<field name="POSNR">4</field>
+<field name="EXPNR">7807900000146</field>
+<field name="ZMENG">1</field>
+</row>
+<row id="4">
+<field name="BSTKD">4800431547</field>
+<field name="POSNR">5</field>
+<field name="EXPNR">7807900000146</field>
+<field name="ZMENG">1</field>
+</row>
+<row id="5">
+<field name="BSTKD">4800431547</field>
+<field name="POSNR">6</field>
+<field name="EXPNR">7807900000146</field>
+<field name="ZMENG">1</field>
+</row>
+<row id="6">
+<field name="BSTKD">4800431547</field>
+<field name="POSNR">7</field>
+<field name="EXPNR">7807900000146</field>
+<field name="ZMENG">1</field>
+</row>
+<row id="7">
+<field name="BSTKD">4800431547</field>
+<field name="POSNR">8</field>
+<field name="EXPNR">7807900000146</field>
+<field name="ZMENG">1</field>
+</row>
+<row id="8">
+<field name="BSTKD">4800431547</field>
+<field name="POSNR">9</field>
+<field name="EXPNR">7807900000146</field>
+<field name="ZMENG">1</field>
+</row>
+<row id="9">
+<field name="BSTKD">4800431547</field>
+<field name="POSNR">10</field>
+<field name="EXPNR">7807900000146</field>
+<field name="ZMENG">1</field>
+</row>
+</table>
+</tables>
+</bapirfc>
+<bapirfc name="ZMFSD_0001">
+<tables>
+<table name="T_HEADER">
+<row id="0">
+<field name="BSTKD">4800431548</field>
+<field name="BSTDK">20140616</field>
+<field name="BSTDK_E">20140618</field>
+<field name="VDATU">20140616</field>
+<field name="ZDEP">91</field>
+<field name="ZTPO">07</field>
+<field name="ZMPO">FBBABYWK04</field>
+<field name="WAERK">CLP</field>
+<field name="ZTERM">3</field>
+<field name="ZMODP">D</field>
+</row>
+</table>
+<table name="T_HEADER_INTER">
+<row id="0">
+<field name="BSTKD">4800431548</field>
+<field name="ZTIPO">FR</field>
+<field name="EXPNR">7807900000450</field>
+<field name="NAME1">WALMART STORES CHILE</field>
+<field name="ZVENDOR"/>
+</row>
+<row id="1">
+<field name="BSTKD">4800431548</field>
+<field name="ZTIPO">SF</field>
+<field name="EXPNR">000433910</field>
+<field name="NAME1">NESTLE CHILE SA</field>
+<field name="ZVENDOR">000433910</field>
+</row>
+</table>
+<table name="T_DETAIL_GRAL">
+<row id="0">
+<field name="BSTKD">4800431548</field>
+<field name="POSNR">1</field>
+<field name="KDMAT">17802710835152</field>
+<field name="ZDMAT">000103818</field>
+<field name="ZVENDOR">123662</field>
+<field name="ZMENG">1</field>
+<field name="ZPREC">7524</field>
+<field name="NETWR">7524</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">6</field>
+<field name="ZPACL">3</field>
+</row>
+<row id="1">
+<field name="BSTKD">4800431548</field>
+<field name="POSNR">2</field>
+<field name="KDMAT">17802710350501</field>
+<field name="ZDMAT">000105106</field>
+<field name="ZVENDOR">12018554</field>
+<field name="ZMENG">1</field>
+<field name="ZPREC">7524</field>
+<field name="NETWR">7524</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">6</field>
+<field name="ZPACL">3</field>
+</row>
+<row id="2">
+<field name="BSTKD">4800431548</field>
+<field name="POSNR">3</field>
+<field name="KDMAT">17802710831116</field>
+<field name="ZDMAT">000105115</field>
+<field name="ZVENDOR">12018359</field>
+<field name="ZMENG">1</field>
+<field name="ZPREC">7524</field>
+<field name="NETWR">7524</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">6</field>
+<field name="ZPACL">3</field>
+</row>
+<row id="3">
+<field name="BSTKD">4800431548</field>
+<field name="POSNR">4</field>
+<field name="KDMAT">17802710350051</field>
+<field name="ZDMAT">000105120</field>
+<field name="ZVENDOR">12018424</field>
+<field name="ZMENG">1</field>
+<field name="ZPREC">7524</field>
+<field name="NETWR">7524</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">6</field>
+<field name="ZPACL">3</field>
+</row>
+<row id="4">
+<field name="BSTKD">4800431548</field>
+<field name="POSNR">5</field>
+<field name="KDMAT">7613031238224</field>
+<field name="ZDMAT">000105123</field>
+<field name="ZVENDOR">12018322</field>
+<field name="ZMENG">1</field>
+<field name="ZPREC">7524</field>
+<field name="NETWR">7524</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">6</field>
+<field name="ZPACL">3</field>
+</row>
+<row id="5">
+<field name="BSTKD">4800431548</field>
+<field name="POSNR">6</field>
+<field name="KDMAT">17802710566247</field>
+<field name="ZDMAT">000406581</field>
+<field name="ZVENDOR">12114481</field>
+<field name="ZMENG">1</field>
+<field name="ZPREC">8658</field>
+<field name="NETWR">8658</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">6</field>
+<field name="ZPACL">3</field>
+</row>
+<row id="6">
+<field name="BSTKD">4800431548</field>
+<field name="POSNR">7</field>
+<field name="KDMAT">7613031246212</field>
+<field name="ZDMAT">000406582</field>
+<field name="ZVENDOR">12114491</field>
+<field name="ZMENG">1</field>
+<field name="ZPREC">7938</field>
+<field name="NETWR">7938</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">6</field>
+<field name="ZPACL">3</field>
+</row>
+<row id="7">
+<field name="BSTKD">4800431548</field>
+<field name="POSNR">8</field>
+<field name="KDMAT">7613032657192</field>
+<field name="ZDMAT">000490331</field>
+<field name="ZVENDOR">12112705</field>
+<field name="ZMENG">1</field>
+<field name="ZPREC">7524</field>
+<field name="NETWR">7524</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">6</field>
+<field name="ZPACL">3</field>
+</row>
+<row id="8">
+<field name="BSTKD">4800431548</field>
+<field name="POSNR">9</field>
+<field name="KDMAT">7613032627096</field>
+<field name="ZDMAT">000490333</field>
+<field name="ZVENDOR">12110138</field>
+<field name="ZMENG">1</field>
+<field name="ZPREC">7524</field>
+<field name="NETWR">7524</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">6</field>
+<field name="ZPACL">3</field>
+</row>
+<row id="9">
+<field name="BSTKD">4800431548</field>
+<field name="POSNR">10</field>
+<field name="KDMAT">17802710566230</field>
+<field name="ZDMAT">000490334</field>
+<field name="ZVENDOR">12114454</field>
+<field name="ZMENG">1</field>
+<field name="ZPREC">8658</field>
+<field name="NETWR">8658</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">6</field>
+<field name="ZPACL">3</field>
+</row>
+</table>
+<table name="T_DETAIL_ITEM">
+<row id="0">
+<field name="BSTKD">4800431548</field>
+<field name="POSNR">1</field>
+<field name="KDMAT">17802710835152</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC"/>
+</row>
+<row id="1">
+<field name="BSTKD">4800431548</field>
+<field name="POSNR">2</field>
+<field name="KDMAT">17802710350501</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC"/>
+</row>
+<row id="2">
+<field name="BSTKD">4800431548</field>
+<field name="POSNR">3</field>
+<field name="KDMAT">17802710831116</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC"/>
+</row>
+<row id="3">
+<field name="BSTKD">4800431548</field>
+<field name="POSNR">4</field>
+<field name="KDMAT">17802710350051</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC"/>
+</row>
+<row id="4">
+<field name="BSTKD">4800431548</field>
+<field name="POSNR">5</field>
+<field name="KDMAT">7613031238224</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC"/>
+</row>
+<row id="5">
+<field name="BSTKD">4800431548</field>
+<field name="POSNR">6</field>
+<field name="KDMAT">17802710566247</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC"/>
+</row>
+<row id="6">
+<field name="BSTKD">4800431548</field>
+<field name="POSNR">7</field>
+<field name="KDMAT">7613031246212</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC"/>
+</row>
+<row id="7">
+<field name="BSTKD">4800431548</field>
+<field name="POSNR">8</field>
+<field name="KDMAT">7613032657192</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC"/>
+</row>
+<row id="8">
+<field name="BSTKD">4800431548</field>
+<field name="POSNR">9</field>
+<field name="KDMAT">7613032627096</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC"/>
+</row>
+<row id="9">
+<field name="BSTKD">4800431548</field>
+<field name="POSNR">10</field>
+<field name="KDMAT">17802710566230</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC"/>
+</row>
+</table>
+<table name="T_DETAIL_INTER">
+<row id="0">
+<field name="BSTKD">4800431548</field>
+<field name="POSNR">1</field>
+<field name="EXPNR">7807900000450</field>
+<field name="ZMENG">1</field>
+</row>
+<row id="1">
+<field name="BSTKD">4800431548</field>
+<field name="POSNR">2</field>
+<field name="EXPNR">7807900000450</field>
+<field name="ZMENG">1</field>
+</row>
+<row id="2">
+<field name="BSTKD">4800431548</field>
+<field name="POSNR">3</field>
+<field name="EXPNR">7807900000450</field>
+<field name="ZMENG">1</field>
+</row>
+<row id="3">
+<field name="BSTKD">4800431548</field>
+<field name="POSNR">4</field>
+<field name="EXPNR">7807900000450</field>
+<field name="ZMENG">1</field>
+</row>
+<row id="4">
+<field name="BSTKD">4800431548</field>
+<field name="POSNR">5</field>
+<field name="EXPNR">7807900000450</field>
+<field name="ZMENG">1</field>
+</row>
+<row id="5">
+<field name="BSTKD">4800431548</field>
+<field name="POSNR">6</field>
+<field name="EXPNR">7807900000450</field>
+<field name="ZMENG">1</field>
+</row>
+<row id="6">
+<field name="BSTKD">4800431548</field>
+<field name="POSNR">7</field>
+<field name="EXPNR">7807900000450</field>
+<field name="ZMENG">1</field>
+</row>
+<row id="7">
+<field name="BSTKD">4800431548</field>
+<field name="POSNR">8</field>
+<field name="EXPNR">7807900000450</field>
+<field name="ZMENG">1</field>
+</row>
+<row id="8">
+<field name="BSTKD">4800431548</field>
+<field name="POSNR">9</field>
+<field name="EXPNR">7807900000450</field>
+<field name="ZMENG">1</field>
+</row>
+<row id="9">
+<field name="BSTKD">4800431548</field>
+<field name="POSNR">10</field>
+<field name="EXPNR">7807900000450</field>
+<field name="ZMENG">1</field>
+</row>
+</table>
+</tables>
+</bapirfc>
+<bapirfc name="ZMFSD_0001">
+<tables>
+<table name="T_HEADER">
+<row id="0">
+<field name="BSTKD">4800431549</field>
+<field name="BSTDK">20140616</field>
+<field name="BSTDK_E">20140618</field>
+<field name="VDATU">20140616</field>
+<field name="ZDEP">91</field>
+<field name="ZTPO">07</field>
+<field name="ZMPO">FBBABYWK04</field>
+<field name="WAERK">CLP</field>
+<field name="ZTERM">3</field>
+<field name="ZMODP">D</field>
+</row>
+</table>
+<table name="T_HEADER_INTER">
+<row id="0">
+<field name="BSTKD">4800431549</field>
+<field name="ZTIPO">FR</field>
+<field name="EXPNR">7807900000504</field>
+<field name="NAME1">WALMART STORES CHILE</field>
+<field name="ZVENDOR"/>
+</row>
+<row id="1">
+<field name="BSTKD">4800431549</field>
+<field name="ZTIPO">SF</field>
+<field name="EXPNR">000433910</field>
+<field name="NAME1">NESTLE CHILE SA</field>
+<field name="ZVENDOR">000433910</field>
+</row>
+</table>
+<table name="T_DETAIL_GRAL">
+<row id="0">
+<field name="BSTKD">4800431549</field>
+<field name="POSNR">1</field>
+<field name="KDMAT">17802710350051</field>
+<field name="ZDMAT">000105120</field>
+<field name="ZVENDOR">12018424</field>
+<field name="ZMENG">2</field>
+<field name="ZPREC">15048</field>
+<field name="NETWR">7524</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">6</field>
+<field name="ZPACL">3</field>
+</row>
+<row id="1">
+<field name="BSTKD">4800431549</field>
+<field name="POSNR">2</field>
+<field name="KDMAT">17802710566247</field>
+<field name="ZDMAT">000406581</field>
+<field name="ZVENDOR">12114481</field>
+<field name="ZMENG">2</field>
+<field name="ZPREC">17316</field>
+<field name="NETWR">8658</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">6</field>
+<field name="ZPACL">3</field>
+</row>
+<row id="2">
+<field name="BSTKD">4800431549</field>
+<field name="POSNR">3</field>
+<field name="KDMAT">7613031246212</field>
+<field name="ZDMAT">000406582</field>
+<field name="ZVENDOR">12114491</field>
+<field name="ZMENG">1</field>
+<field name="ZPREC">7938</field>
+<field name="NETWR">7938</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">6</field>
+<field name="ZPACL">3</field>
+</row>
+<row id="3">
+<field name="BSTKD">4800431549</field>
+<field name="POSNR">4</field>
+<field name="KDMAT">17802710566216</field>
+<field name="ZDMAT">000406590</field>
+<field name="ZVENDOR">12114456</field>
+<field name="ZMENG">2</field>
+<field name="ZPREC">15876</field>
+<field name="NETWR">7938</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">6</field>
+<field name="ZPACL">3</field>
+</row>
+<row id="4">
+<field name="BSTKD">4800431549</field>
+<field name="POSNR">5</field>
+<field name="KDMAT">7613032657192</field>
+<field name="ZDMAT">000490331</field>
+<field name="ZVENDOR">12112705</field>
+<field name="ZMENG">1</field>
+<field name="ZPREC">7524</field>
+<field name="NETWR">7524</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">6</field>
+<field name="ZPACL">3</field>
+</row>
+<row id="5">
+<field name="BSTKD">4800431549</field>
+<field name="POSNR">6</field>
+<field name="KDMAT">17802710835114</field>
+<field name="ZDMAT">000490332</field>
+<field name="ZVENDOR">12018422</field>
+<field name="ZMENG">1</field>
+<field name="ZPREC">7524</field>
+<field name="NETWR">7524</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">6</field>
+<field name="ZPACL">3</field>
+</row>
+<row id="6">
+<field name="BSTKD">4800431549</field>
+<field name="POSNR">7</field>
+<field name="KDMAT">7613032627096</field>
+<field name="ZDMAT">000490333</field>
+<field name="ZVENDOR">12110138</field>
+<field name="ZMENG">1</field>
+<field name="ZPREC">7524</field>
+<field name="NETWR">7524</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">6</field>
+<field name="ZPACL">3</field>
+</row>
+</table>
+<table name="T_DETAIL_ITEM">
+<row id="0">
+<field name="BSTKD">4800431549</field>
+<field name="POSNR">1</field>
+<field name="KDMAT">17802710350051</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC"/>
+</row>
+<row id="1">
+<field name="BSTKD">4800431549</field>
+<field name="POSNR">2</field>
+<field name="KDMAT">17802710566247</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC"/>
+</row>
+<row id="2">
+<field name="BSTKD">4800431549</field>
+<field name="POSNR">3</field>
+<field name="KDMAT">7613031246212</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC"/>
+</row>
+<row id="3">
+<field name="BSTKD">4800431549</field>
+<field name="POSNR">4</field>
+<field name="KDMAT">17802710566216</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC"/>
+</row>
+<row id="4">
+<field name="BSTKD">4800431549</field>
+<field name="POSNR">5</field>
+<field name="KDMAT">7613032657192</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC"/>
+</row>
+<row id="5">
+<field name="BSTKD">4800431549</field>
+<field name="POSNR">6</field>
+<field name="KDMAT">17802710835114</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC"/>
+</row>
+<row id="6">
+<field name="BSTKD">4800431549</field>
+<field name="POSNR">7</field>
+<field name="KDMAT">7613032627096</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC"/>
+</row>
+</table>
+<table name="T_DETAIL_INTER">
+<row id="0">
+<field name="BSTKD">4800431549</field>
+<field name="POSNR">1</field>
+<field name="EXPNR">7807900000504</field>
+<field name="ZMENG">2</field>
+</row>
+<row id="1">
+<field name="BSTKD">4800431549</field>
+<field name="POSNR">2</field>
+<field name="EXPNR">7807900000504</field>
+<field name="ZMENG">2</field>
+</row>
+<row id="2">
+<field name="BSTKD">4800431549</field>
+<field name="POSNR">3</field>
+<field name="EXPNR">7807900000504</field>
+<field name="ZMENG">1</field>
+</row>
+<row id="3">
+<field name="BSTKD">4800431549</field>
+<field name="POSNR">4</field>
+<field name="EXPNR">7807900000504</field>
+<field name="ZMENG">2</field>
+</row>
+<row id="4">
+<field name="BSTKD">4800431549</field>
+<field name="POSNR">5</field>
+<field name="EXPNR">7807900000504</field>
+<field name="ZMENG">1</field>
+</row>
+<row id="5">
+<field name="BSTKD">4800431549</field>
+<field name="POSNR">6</field>
+<field name="EXPNR">7807900000504</field>
+<field name="ZMENG">1</field>
+</row>
+<row id="6">
+<field name="BSTKD">4800431549</field>
+<field name="POSNR">7</field>
+<field name="EXPNR">7807900000504</field>
+<field name="ZMENG">1</field>
+</row>
+</table>
+</tables>
+</bapirfc>
+<bapirfc name="ZMFSD_0001">
+<tables>
+<table name="T_HEADER">
+<row id="0">
+<field name="BSTKD">4800431550</field>
+<field name="BSTDK">20140616</field>
+<field name="BSTDK_E">20140618</field>
+<field name="VDATU">20140616</field>
+<field name="ZDEP">91</field>
+<field name="ZTPO">07</field>
+<field name="ZMPO">FBBABYWK04</field>
+<field name="WAERK">CLP</field>
+<field name="ZTERM">3</field>
+<field name="ZMODP">D</field>
+</row>
+</table>
+<table name="T_HEADER_INTER">
+<row id="0">
+<field name="BSTKD">4800431550</field>
+<field name="ZTIPO">FR</field>
+<field name="EXPNR">7807900001044</field>
+<field name="NAME1">WALMART STORES CHILE</field>
+<field name="ZVENDOR"/>
+</row>
+<row id="1">
+<field name="BSTKD">4800431550</field>
+<field name="ZTIPO">SF</field>
+<field name="EXPNR">000433910</field>
+<field name="NAME1">NESTLE CHILE SA</field>
+<field name="ZVENDOR">000433910</field>
+</row>
+</table>
+<table name="T_DETAIL_GRAL">
+<row id="0">
+<field name="BSTKD">4800431550</field>
+<field name="POSNR">1</field>
+<field name="KDMAT">17802710835152</field>
+<field name="ZDMAT">000103818</field>
+<field name="ZVENDOR">123662</field>
+<field name="ZMENG">2</field>
+<field name="ZPREC">15048</field>
+<field name="NETWR">7524</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">6</field>
+<field name="ZPACL">3</field>
+</row>
+<row id="1">
+<field name="BSTKD">4800431550</field>
+<field name="POSNR">2</field>
+<field name="KDMAT">17802710566247</field>
+<field name="ZDMAT">000406581</field>
+<field name="ZVENDOR">12114481</field>
+<field name="ZMENG">2</field>
+<field name="ZPREC">17316</field>
+<field name="NETWR">8658</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">6</field>
+<field name="ZPACL">3</field>
+</row>
+<row id="2">
+<field name="BSTKD">4800431550</field>
+<field name="POSNR">3</field>
+<field name="KDMAT">7613031246212</field>
+<field name="ZDMAT">000406582</field>
+<field name="ZVENDOR">12114491</field>
+<field name="ZMENG">2</field>
+<field name="ZPREC">15876</field>
+<field name="NETWR">7938</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">6</field>
+<field name="ZPACL">3</field>
+</row>
+<row id="3">
+<field name="BSTKD">4800431550</field>
+<field name="POSNR">4</field>
+<field name="KDMAT">7613032657192</field>
+<field name="ZDMAT">000490331</field>
+<field name="ZVENDOR">12112705</field>
+<field name="ZMENG">2</field>
+<field name="ZPREC">15048</field>
+<field name="NETWR">7524</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">6</field>
+<field name="ZPACL">3</field>
+</row>
+<row id="4">
+<field name="BSTKD">4800431550</field>
+<field name="POSNR">5</field>
+<field name="KDMAT">17802710566230</field>
+<field name="ZDMAT">000490334</field>
+<field name="ZVENDOR">12114454</field>
+<field name="ZMENG">2</field>
+<field name="ZPREC">17316</field>
+<field name="NETWR">8658</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">6</field>
+<field name="ZPACL">3</field>
+</row>
+</table>
+<table name="T_DETAIL_ITEM">
+<row id="0">
+<field name="BSTKD">4800431550</field>
+<field name="POSNR">1</field>
+<field name="KDMAT">17802710835152</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC"/>
+</row>
+<row id="1">
+<field name="BSTKD">4800431550</field>
+<field name="POSNR">2</field>
+<field name="KDMAT">17802710566247</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC"/>
+</row>
+<row id="2">
+<field name="BSTKD">4800431550</field>
+<field name="POSNR">3</field>
+<field name="KDMAT">7613031246212</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC"/>
+</row>
+<row id="3">
+<field name="BSTKD">4800431550</field>
+<field name="POSNR">4</field>
+<field name="KDMAT">7613032657192</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC"/>
+</row>
+<row id="4">
+<field name="BSTKD">4800431550</field>
+<field name="POSNR">5</field>
+<field name="KDMAT">17802710566230</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC"/>
+</row>
+</table>
+<table name="T_DETAIL_INTER">
+<row id="0">
+<field name="BSTKD">4800431550</field>
+<field name="POSNR">1</field>
+<field name="EXPNR">7807900001044</field>
+<field name="ZMENG">2</field>
+</row>
+<row id="1">
+<field name="BSTKD">4800431550</field>
+<field name="POSNR">2</field>
+<field name="EXPNR">7807900001044</field>
+<field name="ZMENG">2</field>
+</row>
+<row id="2">
+<field name="BSTKD">4800431550</field>
+<field name="POSNR">3</field>
+<field name="EXPNR">7807900001044</field>
+<field name="ZMENG">2</field>
+</row>
+<row id="3">
+<field name="BSTKD">4800431550</field>
+<field name="POSNR">4</field>
+<field name="EXPNR">7807900001044</field>
+<field name="ZMENG">2</field>
+</row>
+<row id="4">
+<field name="BSTKD">4800431550</field>
+<field name="POSNR">5</field>
+<field name="EXPNR">7807900001044</field>
+<field name="ZMENG">2</field>
+</row>
+</table>
+</tables>
+</bapirfc>
+<bapirfc name="ZMFSD_0001">
+<tables>
+<table name="T_HEADER">
+<row id="0">
+<field name="BSTKD">4800431551</field>
+<field name="BSTDK">20140616</field>
+<field name="BSTDK_E">20140618</field>
+<field name="VDATU">20140616</field>
+<field name="ZDEP">91</field>
+<field name="ZTPO">07</field>
+<field name="ZMPO">FBBABYWK04</field>
+<field name="WAERK">CLP</field>
+<field name="ZTERM">3</field>
+<field name="ZMODP">D</field>
+</row>
+</table>
+<table name="T_HEADER_INTER">
+<row id="0">
+<field name="BSTKD">4800431551</field>
+<field name="ZTIPO">FR</field>
+<field name="EXPNR">7807900001051</field>
+<field name="NAME1">WALMART STORES CHILE</field>
+<field name="ZVENDOR"/>
+</row>
+<row id="1">
+<field name="BSTKD">4800431551</field>
+<field name="ZTIPO">SF</field>
+<field name="EXPNR">000433910</field>
+<field name="NAME1">NESTLE CHILE SA</field>
+<field name="ZVENDOR">000433910</field>
+</row>
+</table>
+<table name="T_DETAIL_GRAL">
+<row id="0">
+<field name="BSTKD">4800431551</field>
+<field name="POSNR">1</field>
+<field name="KDMAT">7613031299126</field>
+<field name="ZDMAT">000102301</field>
+<field name="ZVENDOR">123235</field>
+<field name="ZMENG">1</field>
+<field name="ZPREC">23088</field>
+<field name="NETWR">23088</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">16</field>
+<field name="ZPACL">3</field>
+</row>
+<row id="1">
+<field name="BSTKD">4800431551</field>
+<field name="POSNR">2</field>
+<field name="KDMAT">17802710835152</field>
+<field name="ZDMAT">000103818</field>
+<field name="ZVENDOR">123662</field>
+<field name="ZMENG">1</field>
+<field name="ZPREC">7524</field>
+<field name="NETWR">7524</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">6</field>
+<field name="ZPACL">3</field>
+</row>
+<row id="2">
+<field name="BSTKD">4800431551</field>
+<field name="POSNR">3</field>
+<field name="KDMAT">17802710350501</field>
+<field name="ZDMAT">000105106</field>
+<field name="ZVENDOR">12018554</field>
+<field name="ZMENG">1</field>
+<field name="ZPREC">7524</field>
+<field name="NETWR">7524</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">6</field>
+<field name="ZPACL">3</field>
+</row>
+<row id="3">
+<field name="BSTKD">4800431551</field>
+<field name="POSNR">4</field>
+<field name="KDMAT">7613031238224</field>
+<field name="ZDMAT">000105123</field>
+<field name="ZVENDOR">12018322</field>
+<field name="ZMENG">1</field>
+<field name="ZPREC">7524</field>
+<field name="NETWR">7524</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">6</field>
+<field name="ZPACL">3</field>
+</row>
+<row id="4">
+<field name="BSTKD">4800431551</field>
+<field name="POSNR">5</field>
+<field name="KDMAT">17802710566247</field>
+<field name="ZDMAT">000406581</field>
+<field name="ZVENDOR">12114481</field>
+<field name="ZMENG">1</field>
+<field name="ZPREC">8658</field>
+<field name="NETWR">8658</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">6</field>
+<field name="ZPACL">3</field>
+</row>
+<row id="5">
+<field name="BSTKD">4800431551</field>
+<field name="POSNR">6</field>
+<field name="KDMAT">7613031246212</field>
+<field name="ZDMAT">000406582</field>
+<field name="ZVENDOR">12114491</field>
+<field name="ZMENG">1</field>
+<field name="ZPREC">7938</field>
+<field name="NETWR">7938</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">6</field>
+<field name="ZPACL">3</field>
+</row>
+<row id="6">
+<field name="BSTKD">4800431551</field>
+<field name="POSNR">7</field>
+<field name="KDMAT">7613032657192</field>
+<field name="ZDMAT">000490331</field>
+<field name="ZVENDOR">12112705</field>
+<field name="ZMENG">1</field>
+<field name="ZPREC">7524</field>
+<field name="NETWR">7524</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">6</field>
+<field name="ZPACL">3</field>
+</row>
+<row id="7">
+<field name="BSTKD">4800431551</field>
+<field name="POSNR">8</field>
+<field name="KDMAT">17802710835114</field>
+<field name="ZDMAT">000490332</field>
+<field name="ZVENDOR">12018422</field>
+<field name="ZMENG">1</field>
+<field name="ZPREC">7524</field>
+<field name="NETWR">7524</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">6</field>
+<field name="ZPACL">3</field>
+</row>
+<row id="8">
+<field name="BSTKD">4800431551</field>
+<field name="POSNR">9</field>
+<field name="KDMAT">7613032627096</field>
+<field name="ZDMAT">000490333</field>
+<field name="ZVENDOR">12110138</field>
+<field name="ZMENG">1</field>
+<field name="ZPREC">7524</field>
+<field name="NETWR">7524</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">6</field>
+<field name="ZPACL">3</field>
+</row>
+<row id="9">
+<field name="BSTKD">4800431551</field>
+<field name="POSNR">10</field>
+<field name="KDMAT">17802710566230</field>
+<field name="ZDMAT">000490334</field>
+<field name="ZVENDOR">12114454</field>
+<field name="ZMENG">1</field>
+<field name="ZPREC">8658</field>
+<field name="NETWR">8658</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">6</field>
+<field name="ZPACL">3</field>
+</row>
+</table>
+<table name="T_DETAIL_ITEM">
+<row id="0">
+<field name="BSTKD">4800431551</field>
+<field name="POSNR">1</field>
+<field name="KDMAT">7613031299126</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC"/>
+</row>
+<row id="1">
+<field name="BSTKD">4800431551</field>
+<field name="POSNR">2</field>
+<field name="KDMAT">17802710835152</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC"/>
+</row>
+<row id="2">
+<field name="BSTKD">4800431551</field>
+<field name="POSNR">3</field>
+<field name="KDMAT">17802710350501</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC"/>
+</row>
+<row id="3">
+<field name="BSTKD">4800431551</field>
+<field name="POSNR">4</field>
+<field name="KDMAT">7613031238224</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC"/>
+</row>
+<row id="4">
+<field name="BSTKD">4800431551</field>
+<field name="POSNR">5</field>
+<field name="KDMAT">17802710566247</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC"/>
+</row>
+<row id="5">
+<field name="BSTKD">4800431551</field>
+<field name="POSNR">6</field>
+<field name="KDMAT">7613031246212</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC"/>
+</row>
+<row id="6">
+<field name="BSTKD">4800431551</field>
+<field name="POSNR">7</field>
+<field name="KDMAT">7613032657192</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC"/>
+</row>
+<row id="7">
+<field name="BSTKD">4800431551</field>
+<field name="POSNR">8</field>
+<field name="KDMAT">17802710835114</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC"/>
+</row>
+<row id="8">
+<field name="BSTKD">4800431551</field>
+<field name="POSNR">9</field>
+<field name="KDMAT">7613032627096</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC"/>
+</row>
+<row id="9">
+<field name="BSTKD">4800431551</field>
+<field name="POSNR">10</field>
+<field name="KDMAT">17802710566230</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC"/>
+</row>
+</table>
+<table name="T_DETAIL_INTER">
+<row id="0">
+<field name="BSTKD">4800431551</field>
+<field name="POSNR">1</field>
+<field name="EXPNR">7807900001051</field>
+<field name="ZMENG">1</field>
+</row>
+<row id="1">
+<field name="BSTKD">4800431551</field>
+<field name="POSNR">2</field>
+<field name="EXPNR">7807900001051</field>
+<field name="ZMENG">1</field>
+</row>
+<row id="2">
+<field name="BSTKD">4800431551</field>
+<field name="POSNR">3</field>
+<field name="EXPNR">7807900001051</field>
+<field name="ZMENG">1</field>
+</row>
+<row id="3">
+<field name="BSTKD">4800431551</field>
+<field name="POSNR">4</field>
+<field name="EXPNR">7807900001051</field>
+<field name="ZMENG">1</field>
+</row>
+<row id="4">
+<field name="BSTKD">4800431551</field>
+<field name="POSNR">5</field>
+<field name="EXPNR">7807900001051</field>
+<field name="ZMENG">1</field>
+</row>
+<row id="5">
+<field name="BSTKD">4800431551</field>
+<field name="POSNR">6</field>
+<field name="EXPNR">7807900001051</field>
+<field name="ZMENG">1</field>
+</row>
+<row id="6">
+<field name="BSTKD">4800431551</field>
+<field name="POSNR">7</field>
+<field name="EXPNR">7807900001051</field>
+<field name="ZMENG">1</field>
+</row>
+<row id="7">
+<field name="BSTKD">4800431551</field>
+<field name="POSNR">8</field>
+<field name="EXPNR">7807900001051</field>
+<field name="ZMENG">1</field>
+</row>
+<row id="8">
+<field name="BSTKD">4800431551</field>
+<field name="POSNR">9</field>
+<field name="EXPNR">7807900001051</field>
+<field name="ZMENG">1</field>
+</row>
+<row id="9">
+<field name="BSTKD">4800431551</field>
+<field name="POSNR">10</field>
+<field name="EXPNR">7807900001051</field>
+<field name="ZMENG">1</field>
+</row>
+</table>
+</tables>
+</bapirfc>
+<bapirfc name="ZMFSD_0001">
+<tables>
+<table name="T_HEADER">
+<row id="0">
+<field name="BSTKD">4800431552</field>
+<field name="BSTDK">20140616</field>
+<field name="BSTDK_E">20140618</field>
+<field name="VDATU">20140616</field>
+<field name="ZDEP">91</field>
+<field name="ZTPO">07</field>
+<field name="ZMPO">FBBABYWK04</field>
+<field name="WAERK">CLP</field>
+<field name="ZTERM">3</field>
+<field name="ZMODP">D</field>
+</row>
+</table>
+<table name="T_HEADER_INTER">
+<row id="0">
+<field name="BSTKD">4800431552</field>
+<field name="ZTIPO">FR</field>
+<field name="EXPNR">7807900001402</field>
+<field name="NAME1">WALMART STORES CHILE</field>
+<field name="ZVENDOR"/>
+</row>
+<row id="1">
+<field name="BSTKD">4800431552</field>
+<field name="ZTIPO">SF</field>
+<field name="EXPNR">000433910</field>
+<field name="NAME1">NESTLE CHILE SA</field>
+<field name="ZVENDOR">000433910</field>
+</row>
+</table>
+<table name="T_DETAIL_GRAL">
+<row id="0">
+<field name="BSTKD">4800431552</field>
+<field name="POSNR">1</field>
+<field name="KDMAT">7613031299126</field>
+<field name="ZDMAT">000102301</field>
+<field name="ZVENDOR">123235</field>
+<field name="ZMENG">1</field>
+<field name="ZPREC">23088</field>
+<field name="NETWR">23088</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">16</field>
+<field name="ZPACL">3</field>
+</row>
+<row id="1">
+<field name="BSTKD">4800431552</field>
+<field name="POSNR">2</field>
+<field name="KDMAT">7613031238224</field>
+<field name="ZDMAT">000105123</field>
+<field name="ZVENDOR">12018322</field>
+<field name="ZMENG">2</field>
+<field name="ZPREC">15048</field>
+<field name="NETWR">7524</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">6</field>
+<field name="ZPACL">3</field>
+</row>
+<row id="2">
+<field name="BSTKD">4800431552</field>
+<field name="POSNR">3</field>
+<field name="KDMAT">17802710566247</field>
+<field name="ZDMAT">000406581</field>
+<field name="ZVENDOR">12114481</field>
+<field name="ZMENG">1</field>
+<field name="ZPREC">8658</field>
+<field name="NETWR">8658</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">6</field>
+<field name="ZPACL">3</field>
+</row>
+<row id="3">
+<field name="BSTKD">4800431552</field>
+<field name="POSNR">4</field>
+<field name="KDMAT">7613031246212</field>
+<field name="ZDMAT">000406582</field>
+<field name="ZVENDOR">12114491</field>
+<field name="ZMENG">1</field>
+<field name="ZPREC">7938</field>
+<field name="NETWR">7938</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">6</field>
+<field name="ZPACL">3</field>
+</row>
+<row id="4">
+<field name="BSTKD">4800431552</field>
+<field name="POSNR">5</field>
+<field name="KDMAT">17802710566216</field>
+<field name="ZDMAT">000406590</field>
+<field name="ZVENDOR">12114456</field>
+<field name="ZMENG">1</field>
+<field name="ZPREC">7938</field>
+<field name="NETWR">7938</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">6</field>
+<field name="ZPACL">3</field>
+</row>
+<row id="5">
+<field name="BSTKD">4800431552</field>
+<field name="POSNR">6</field>
+<field name="KDMAT">7613032657192</field>
+<field name="ZDMAT">000490331</field>
+<field name="ZVENDOR">12112705</field>
+<field name="ZMENG">1</field>
+<field name="ZPREC">7524</field>
+<field name="NETWR">7524</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">6</field>
+<field name="ZPACL">3</field>
+</row>
+<row id="6">
+<field name="BSTKD">4800431552</field>
+<field name="POSNR">7</field>
+<field name="KDMAT">7613032627096</field>
+<field name="ZDMAT">000490333</field>
+<field name="ZVENDOR">12110138</field>
+<field name="ZMENG">1</field>
+<field name="ZPREC">7524</field>
+<field name="NETWR">7524</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">6</field>
+<field name="ZPACL">3</field>
+</row>
+<row id="7">
+<field name="BSTKD">4800431552</field>
+<field name="POSNR">8</field>
+<field name="KDMAT">17802710566230</field>
+<field name="ZDMAT">000490334</field>
+<field name="ZVENDOR">12114454</field>
+<field name="ZMENG">2</field>
+<field name="ZPREC">17316</field>
+<field name="NETWR">8658</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">6</field>
+<field name="ZPACL">3</field>
+</row>
+</table>
+<table name="T_DETAIL_ITEM">
+<row id="0">
+<field name="BSTKD">4800431552</field>
+<field name="POSNR">1</field>
+<field name="KDMAT">7613031299126</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC"/>
+</row>
+<row id="1">
+<field name="BSTKD">4800431552</field>
+<field name="POSNR">2</field>
+<field name="KDMAT">7613031238224</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC"/>
+</row>
+<row id="2">
+<field name="BSTKD">4800431552</field>
+<field name="POSNR">3</field>
+<field name="KDMAT">17802710566247</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC"/>
+</row>
+<row id="3">
+<field name="BSTKD">4800431552</field>
+<field name="POSNR">4</field>
+<field name="KDMAT">7613031246212</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC"/>
+</row>
+<row id="4">
+<field name="BSTKD">4800431552</field>
+<field name="POSNR">5</field>
+<field name="KDMAT">17802710566216</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC"/>
+</row>
+<row id="5">
+<field name="BSTKD">4800431552</field>
+<field name="POSNR">6</field>
+<field name="KDMAT">7613032657192</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC"/>
+</row>
+<row id="6">
+<field name="BSTKD">4800431552</field>
+<field name="POSNR">7</field>
+<field name="KDMAT">7613032627096</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC"/>
+</row>
+<row id="7">
+<field name="BSTKD">4800431552</field>
+<field name="POSNR">8</field>
+<field name="KDMAT">17802710566230</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC"/>
+</row>
+</table>
+<table name="T_DETAIL_INTER">
+<row id="0">
+<field name="BSTKD">4800431552</field>
+<field name="POSNR">1</field>
+<field name="EXPNR">7807900001402</field>
+<field name="ZMENG">1</field>
+</row>
+<row id="1">
+<field name="BSTKD">4800431552</field>
+<field name="POSNR">2</field>
+<field name="EXPNR">7807900001402</field>
+<field name="ZMENG">2</field>
+</row>
+<row id="2">
+<field name="BSTKD">4800431552</field>
+<field name="POSNR">3</field>
+<field name="EXPNR">7807900001402</field>
+<field name="ZMENG">1</field>
+</row>
+<row id="3">
+<field name="BSTKD">4800431552</field>
+<field name="POSNR">4</field>
+<field name="EXPNR">7807900001402</field>
+<field name="ZMENG">1</field>
+</row>
+<row id="4">
+<field name="BSTKD">4800431552</field>
+<field name="POSNR">5</field>
+<field name="EXPNR">7807900001402</field>
+<field name="ZMENG">1</field>
+</row>
+<row id="5">
+<field name="BSTKD">4800431552</field>
+<field name="POSNR">6</field>
+<field name="EXPNR">7807900001402</field>
+<field name="ZMENG">1</field>
+</row>
+<row id="6">
+<field name="BSTKD">4800431552</field>
+<field name="POSNR">7</field>
+<field name="EXPNR">7807900001402</field>
+<field name="ZMENG">1</field>
+</row>
+<row id="7">
+<field name="BSTKD">4800431552</field>
+<field name="POSNR">8</field>
+<field name="EXPNR">7807900001402</field>
+<field name="ZMENG">2</field>
+</row>
+</table>
+</tables>
+</bapirfc>
+<bapirfc name="ZMFSD_0001">
+<tables>
+<table name="T_HEADER">
+<row id="0">
+<field name="BSTKD">4800431553</field>
+<field name="BSTDK">20140616</field>
+<field name="BSTDK_E">20140618</field>
+<field name="VDATU">20140616</field>
+<field name="ZDEP">91</field>
+<field name="ZTPO">07</field>
+<field name="ZMPO">FBBABYWK04</field>
+<field name="WAERK">CLP</field>
+<field name="ZTERM">3</field>
+<field name="ZMODP">D</field>
+</row>
+</table>
+<table name="T_HEADER_INTER">
+<row id="0">
+<field name="BSTKD">4800431553</field>
+<field name="ZTIPO">FR</field>
+<field name="EXPNR">7807900003468</field>
+<field name="NAME1">WALMART STORES CHILE</field>
+<field name="ZVENDOR"/>
+</row>
+<row id="1">
+<field name="BSTKD">4800431553</field>
+<field name="ZTIPO">SF</field>
+<field name="EXPNR">000433910</field>
+<field name="NAME1">NESTLE CHILE SA</field>
+<field name="ZVENDOR">000433910</field>
+</row>
+</table>
+<table name="T_DETAIL_GRAL">
+<row id="0">
+<field name="BSTKD">4800431553</field>
+<field name="POSNR">1</field>
+<field name="KDMAT">17802710835152</field>
+<field name="ZDMAT">000103818</field>
+<field name="ZVENDOR">123662</field>
+<field name="ZMENG">2</field>
+<field name="ZPREC">15048</field>
+<field name="NETWR">7524</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">6</field>
+<field name="ZPACL">3</field>
+</row>
+<row id="1">
+<field name="BSTKD">4800431553</field>
+<field name="POSNR">2</field>
+<field name="KDMAT">17802710350501</field>
+<field name="ZDMAT">000105106</field>
+<field name="ZVENDOR">12018554</field>
+<field name="ZMENG">2</field>
+<field name="ZPREC">15048</field>
+<field name="NETWR">7524</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">6</field>
+<field name="ZPACL">3</field>
+</row>
+<row id="2">
+<field name="BSTKD">4800431553</field>
+<field name="POSNR">3</field>
+<field name="KDMAT">17802710350051</field>
+<field name="ZDMAT">000105120</field>
+<field name="ZVENDOR">12018424</field>
+<field name="ZMENG">1</field>
+<field name="ZPREC">7524</field>
+<field name="NETWR">7524</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">6</field>
+<field name="ZPACL">3</field>
+</row>
+<row id="3">
+<field name="BSTKD">4800431553</field>
+<field name="POSNR">4</field>
+<field name="KDMAT">7613031238224</field>
+<field name="ZDMAT">000105123</field>
+<field name="ZVENDOR">12018322</field>
+<field name="ZMENG">1</field>
+<field name="ZPREC">7524</field>
+<field name="NETWR">7524</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">6</field>
+<field name="ZPACL">3</field>
+</row>
+<row id="4">
+<field name="BSTKD">4800431553</field>
+<field name="POSNR">5</field>
+<field name="KDMAT">17802710566247</field>
+<field name="ZDMAT">000406581</field>
+<field name="ZVENDOR">12114481</field>
+<field name="ZMENG">2</field>
+<field name="ZPREC">17316</field>
+<field name="NETWR">8658</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">6</field>
+<field name="ZPACL">3</field>
+</row>
+<row id="5">
+<field name="BSTKD">4800431553</field>
+<field name="POSNR">6</field>
+<field name="KDMAT">17802710566230</field>
+<field name="ZDMAT">000490334</field>
+<field name="ZVENDOR">12114454</field>
+<field name="ZMENG">2</field>
+<field name="ZPREC">17316</field>
+<field name="NETWR">8658</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">6</field>
+<field name="ZPACL">3</field>
+</row>
+</table>
+<table name="T_DETAIL_ITEM">
+<row id="0">
+<field name="BSTKD">4800431553</field>
+<field name="POSNR">1</field>
+<field name="KDMAT">17802710835152</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC"/>
+</row>
+<row id="1">
+<field name="BSTKD">4800431553</field>
+<field name="POSNR">2</field>
+<field name="KDMAT">17802710350501</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC"/>
+</row>
+<row id="2">
+<field name="BSTKD">4800431553</field>
+<field name="POSNR">3</field>
+<field name="KDMAT">17802710350051</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC"/>
+</row>
+<row id="3">
+<field name="BSTKD">4800431553</field>
+<field name="POSNR">4</field>
+<field name="KDMAT">7613031238224</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC"/>
+</row>
+<row id="4">
+<field name="BSTKD">4800431553</field>
+<field name="POSNR">5</field>
+<field name="KDMAT">17802710566247</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC"/>
+</row>
+<row id="5">
+<field name="BSTKD">4800431553</field>
+<field name="POSNR">6</field>
+<field name="KDMAT">17802710566230</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC"/>
+</row>
+</table>
+<table name="T_DETAIL_INTER">
+<row id="0">
+<field name="BSTKD">4800431553</field>
+<field name="POSNR">1</field>
+<field name="EXPNR">7807900003468</field>
+<field name="ZMENG">2</field>
+</row>
+<row id="1">
+<field name="BSTKD">4800431553</field>
+<field name="POSNR">2</field>
+<field name="EXPNR">7807900003468</field>
+<field name="ZMENG">2</field>
+</row>
+<row id="2">
+<field name="BSTKD">4800431553</field>
+<field name="POSNR">3</field>
+<field name="EXPNR">7807900003468</field>
+<field name="ZMENG">1</field>
+</row>
+<row id="3">
+<field name="BSTKD">4800431553</field>
+<field name="POSNR">4</field>
+<field name="EXPNR">7807900003468</field>
+<field name="ZMENG">1</field>
+</row>
+<row id="4">
+<field name="BSTKD">4800431553</field>
+<field name="POSNR">5</field>
+<field name="EXPNR">7807900003468</field>
+<field name="ZMENG">2</field>
+</row>
+<row id="5">
+<field name="BSTKD">4800431553</field>
+<field name="POSNR">6</field>
+<field name="EXPNR">7807900003468</field>
+<field name="ZMENG">2</field>
+</row>
+</table>
+</tables>
+</bapirfc>
+<bapirfc name="ZMFSD_0001">
+<tables>
+<table name="T_HEADER">
+<row id="0">
+<field name="BSTKD">4800431554</field>
+<field name="BSTDK">20140616</field>
+<field name="BSTDK_E">20140618</field>
+<field name="VDATU">20140616</field>
+<field name="ZDEP">91</field>
+<field name="ZTPO">07</field>
+<field name="ZMPO">FBBABYWK04</field>
+<field name="WAERK">CLP</field>
+<field name="ZTERM">3</field>
+<field name="ZMODP">D</field>
+</row>
+</table>
+<table name="T_HEADER_INTER">
+<row id="0">
+<field name="BSTKD">4800431554</field>
+<field name="ZTIPO">FR</field>
+<field name="EXPNR">7807900003475</field>
+<field name="NAME1">WALMART STORES CHILE</field>
+<field name="ZVENDOR"/>
+</row>
+<row id="1">
+<field name="BSTKD">4800431554</field>
+<field name="ZTIPO">SF</field>
+<field name="EXPNR">000433910</field>
+<field name="NAME1">NESTLE CHILE SA</field>
+<field name="ZVENDOR">000433910</field>
+</row>
+</table>
+<table name="T_DETAIL_GRAL">
+<row id="0">
+<field name="BSTKD">4800431554</field>
+<field name="POSNR">1</field>
+<field name="KDMAT">17802710835152</field>
+<field name="ZDMAT">000103818</field>
+<field name="ZVENDOR">123662</field>
+<field name="ZMENG">2</field>
+<field name="ZPREC">15048</field>
+<field name="NETWR">7524</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">6</field>
+<field name="ZPACL">3</field>
+</row>
+<row id="1">
+<field name="BSTKD">4800431554</field>
+<field name="POSNR">2</field>
+<field name="KDMAT">17802710350501</field>
+<field name="ZDMAT">000105106</field>
+<field name="ZVENDOR">12018554</field>
+<field name="ZMENG">2</field>
+<field name="ZPREC">15048</field>
+<field name="NETWR">7524</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">6</field>
+<field name="ZPACL">3</field>
+</row>
+<row id="2">
+<field name="BSTKD">4800431554</field>
+<field name="POSNR">3</field>
+<field name="KDMAT">17802710350051</field>
+<field name="ZDMAT">000105120</field>
+<field name="ZVENDOR">12018424</field>
+<field name="ZMENG">1</field>
+<field name="ZPREC">7524</field>
+<field name="NETWR">7524</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">6</field>
+<field name="ZPACL">3</field>
+</row>
+<row id="3">
+<field name="BSTKD">4800431554</field>
+<field name="POSNR">4</field>
+<field name="KDMAT">7613031238224</field>
+<field name="ZDMAT">000105123</field>
+<field name="ZVENDOR">12018322</field>
+<field name="ZMENG">1</field>
+<field name="ZPREC">7524</field>
+<field name="NETWR">7524</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">6</field>
+<field name="ZPACL">3</field>
+</row>
+<row id="4">
+<field name="BSTKD">4800431554</field>
+<field name="POSNR">5</field>
+<field name="KDMAT">17802710566247</field>
+<field name="ZDMAT">000406581</field>
+<field name="ZVENDOR">12114481</field>
+<field name="ZMENG">2</field>
+<field name="ZPREC">17316</field>
+<field name="NETWR">8658</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">6</field>
+<field name="ZPACL">3</field>
+</row>
+<row id="5">
+<field name="BSTKD">4800431554</field>
+<field name="POSNR">6</field>
+<field name="KDMAT">17802710566230</field>
+<field name="ZDMAT">000490334</field>
+<field name="ZVENDOR">12114454</field>
+<field name="ZMENG">2</field>
+<field name="ZPREC">17316</field>
+<field name="NETWR">8658</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">6</field>
+<field name="ZPACL">3</field>
+</row>
+</table>
+<table name="T_DETAIL_ITEM">
+<row id="0">
+<field name="BSTKD">4800431554</field>
+<field name="POSNR">1</field>
+<field name="KDMAT">17802710835152</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC"/>
+</row>
+<row id="1">
+<field name="BSTKD">4800431554</field>
+<field name="POSNR">2</field>
+<field name="KDMAT">17802710350501</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC"/>
+</row>
+<row id="2">
+<field name="BSTKD">4800431554</field>
+<field name="POSNR">3</field>
+<field name="KDMAT">17802710350051</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC"/>
+</row>
+<row id="3">
+<field name="BSTKD">4800431554</field>
+<field name="POSNR">4</field>
+<field name="KDMAT">7613031238224</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC"/>
+</row>
+<row id="4">
+<field name="BSTKD">4800431554</field>
+<field name="POSNR">5</field>
+<field name="KDMAT">17802710566247</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC"/>
+</row>
+<row id="5">
+<field name="BSTKD">4800431554</field>
+<field name="POSNR">6</field>
+<field name="KDMAT">17802710566230</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC"/>
+</row>
+</table>
+<table name="T_DETAIL_INTER">
+<row id="0">
+<field name="BSTKD">4800431554</field>
+<field name="POSNR">1</field>
+<field name="EXPNR">7807900003475</field>
+<field name="ZMENG">2</field>
+</row>
+<row id="1">
+<field name="BSTKD">4800431554</field>
+<field name="POSNR">2</field>
+<field name="EXPNR">7807900003475</field>
+<field name="ZMENG">2</field>
+</row>
+<row id="2">
+<field name="BSTKD">4800431554</field>
+<field name="POSNR">3</field>
+<field name="EXPNR">7807900003475</field>
+<field name="ZMENG">1</field>
+</row>
+<row id="3">
+<field name="BSTKD">4800431554</field>
+<field name="POSNR">4</field>
+<field name="EXPNR">7807900003475</field>
+<field name="ZMENG">1</field>
+</row>
+<row id="4">
+<field name="BSTKD">4800431554</field>
+<field name="POSNR">5</field>
+<field name="EXPNR">7807900003475</field>
+<field name="ZMENG">2</field>
+</row>
+<row id="5">
+<field name="BSTKD">4800431554</field>
+<field name="POSNR">6</field>
+<field name="EXPNR">7807900003475</field>
+<field name="ZMENG">2</field>
+</row>
+</table>
+</tables>
+</bapirfc>
+</root>
