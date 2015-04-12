@@ -26,28 +26,29 @@
 			
 				<!-- T_HEADER_INTER -->
 				<table name="T_HEADER_INTER">
-					<xsl:for-each select="orders:Segment_group_2">
-						<xsl:if test="orders:NAD/c:e3035 != 'SN'">
+					<xsl:for-each select=".">
+						<xsl:if test="orders:Segment_group_2/orders:NAD/c:e3035 != 'SN'">
 							<row id="{position() - 1}">
 								<field name="BSTKD"><!-- Nro de orden -->
-									<xsl:value-of select="parent::*/orders:BGM/c:e1004" />
+									<xsl:value-of select="orders:BGM/c:e1004" />
 								</field>
 								<field name="ZTIPO"><!-- Tipo -->						
-									<xsl:value-of select="orders:NAD/c:e3035"/>
+									<xsl:value-of select="orders:Segment_group_2/orders:NAD/c:e3035"/>
 								</field>
+								<xsl:for-each select="orders:Segment_group_2">
 								<field name="EXPNR"><!-- Int. Externo --> 
 									<xsl:if test="parent::*/orders:Segment_group_1/orders:RFF/c:C506/c:e1154= 73">
-										<xsl:if test="orders:NAD/c:e3035 = 'ST'">
-											<xsl:value-of select="orders:NAD/c:C082/c:e3039" />
+										<xsl:if test="orders:Segment_group_2/orders:NAD/c:e3035 = 'ST'">
+											<xsl:value-of select="orders:Segment_group_2/orders:NAD/c:C082/c:e3039" />
 										</xsl:if>
 										<xsl:if test="orders:NAD/c:e3035 = 'BT'">
-											<xsl:value-of select="orders:NAD/c:C082/c:e3039" />
+											<xsl:value-of select="orders:Segment_group_2/orders:NAD/c:C082/c:e3039" />
 										</xsl:if>
 										<xsl:if test="orders:NAD/c:e3035 = 'SF'">
-											<xsl:value-of select="orders:Segment_group_3/orders:RFF/c:C506/c:e1154" />
+											<xsl:value-of select="orders:Segment_group_2/orders:Segment_group_3/orders:RFF/c:C506/c:e1154" />
 										</xsl:if>
 									</xsl:if>
-									<xsl:if test="parent::*/orders:Segment_group_1/orders:RFF/c:C506/c:e1154 = 20">
+									<xsl:if test="orders:Segment_group_1/orders:RFF/c:C506/c:e1154 = 20">
 										<xsl:if test="orders:NAD/c:e3035 = 'BY'">
 											<xsl:value-of select="orders:NAD/c:C082/c:e3039" />
 										</xsl:if>
