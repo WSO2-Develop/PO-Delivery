@@ -334,7 +334,7 @@
 <field name="ZPACL">3</field>
 </row>
 </table>
-<table name="T_DETAIL_GRAL">
+<table name="T_DETAIL_ITEM">
 <row id="0">
 <field name="BSTKD">8800420016</field>
 <field name="POSNR">1</field>
@@ -504,7 +504,7 @@
 <field name="ZDESC">ADHESIVO PINCEL</field>
 </row>
 </table>
-<table name="T_DETAIL_GRAL">
+<table name="T_DETAIL_INTER">
 <row id="0">
 <field name="BSTKD">8800420016</field>
 <field name="POSNR">1</field>

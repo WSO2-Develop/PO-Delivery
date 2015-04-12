@@ -1,0 +1,1143 @@
+<root>
+<bapirfc name="ZMFSD_0001">
+<tables>
+<table name="T_HEADER">
+<row id="0">
+<field name="BSTKD">0950431075</field>
+<field name="BSTDK">20150401</field>
+<field name="BSTDK_E">20150406</field>
+<field name="VDATU">20150401</field>
+<field name="ZDEP">13</field>
+<field name="ZTPO">33</field>
+<field name="ZMPO">POS REPLEN</field>
+<field name="WAERK">CLP</field>
+<field name="ZTERM">3</field>
+<field name="ZMODP">D</field>
+</row>
+</table>
+<table name="T_HEADER_INTER">
+<row id="0">
+<field name="BSTKD">0950431075</field>
+<field name="ZTIPO">BY</field>
+<field name="EXPNR">7807900007053</field>
+<field name="NAME1">7 DISTRIBUTION CENTER # 6012</field>
+<field name="ZVENDOR"/>
+</row>
+<row id="1">
+<field name="BSTKD">0950431075</field>
+<field name="ZTIPO">SF</field>
+<field name="EXPNR">007822130</field>
+<field name="NAME1">FIBRO CHILE SA</field>
+<field name="ZVENDOR">007822130</field>
+</row>
+</table>
+<table name="T_DETAIL_GRAL">
+<row id="0">
+<field name="BSTKD">0950431075</field>
+<field name="POSNR">1</field>
+<field name="KDMAT">17805224000351</field>
+<field name="ZDMAT">000264517</field>
+<field name="ZVENDOR">3101513</field>
+<field name="ZMENG">20</field>
+<field name="ZPREC">320000</field>
+<field name="NETWR">16000</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">24</field>
+<field name="ZPACL">3</field>
+</row>
+</table>
+<table name="T_DETAIL_ITEM">
+<row id="0">
+<field name="BSTKD">0950431075</field>
+<field name="POSNR">1</field>
+<field name="KDMAT">17805224000351</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC">SODA CAUSTICA</field>
+</row>
+</table>
+<table name="T_DETAIL_INTER"/>
+</tables>
+</bapirfc>
+<bapirfc name="ZMFSD_0001">
+<tables>
+<table name="T_HEADER">
+<row id="0">
+<field name="BSTKD">6800451768</field>
+<field name="BSTDK">20150401</field>
+<field name="BSTDK_E">20150406</field>
+<field name="VDATU">20150401</field>
+<field name="ZDEP">13</field>
+<field name="ZTPO">33</field>
+<field name="ZMPO">POS REPLEN</field>
+<field name="WAERK">CLP</field>
+<field name="ZTERM">3</field>
+<field name="ZMODP">D</field>
+</row>
+</table>
+<table name="T_HEADER_INTER">
+<row id="0">
+<field name="BSTKD">6800451768</field>
+<field name="ZTIPO">BY</field>
+<field name="EXPNR">7807900001686</field>
+<field name="NAME1">DISTRIBUTION CENTER 6009</field>
+<field name="ZVENDOR"/>
+</row>
+<row id="1">
+<field name="BSTKD">6800451768</field>
+<field name="ZTIPO">SF</field>
+<field name="EXPNR">007822130</field>
+<field name="NAME1">FIBRO CHILE SA</field>
+<field name="ZVENDOR">007822130</field>
+</row>
+</table>
+<table name="T_DETAIL_GRAL">
+<row id="0">
+<field name="BSTKD">6800451768</field>
+<field name="POSNR">1</field>
+<field name="KDMAT">17805005000778</field>
+<field name="ZDMAT">000264325</field>
+<field name="ZVENDOR">1244991</field>
+<field name="ZMENG">3</field>
+<field name="ZPREC">31752</field>
+<field name="NETWR">10584</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">24</field>
+<field name="ZPACL">3</field>
+</row>
+<row id="1">
+<field name="BSTKD">6800451768</field>
+<field name="POSNR">2</field>
+<field name="KDMAT">17805224000283</field>
+<field name="ZDMAT">000264790</field>
+<field name="ZVENDOR">1788808</field>
+<field name="ZMENG">79</field>
+<field name="ZPREC">517450</field>
+<field name="NETWR">6550</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">50</field>
+<field name="ZPACL">3</field>
+</row>
+<row id="2">
+<field name="BSTKD">6800451768</field>
+<field name="POSNR">3</field>
+<field name="KDMAT">17805005000365</field>
+<field name="ZDMAT">000269017</field>
+<field name="ZVENDOR">335119</field>
+<field name="ZMENG">90</field>
+<field name="ZPREC">799200</field>
+<field name="NETWR">8880</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">12</field>
+<field name="ZPACL">3</field>
+</row>
+<row id="3">
+<field name="BSTKD">6800451768</field>
+<field name="POSNR">4</field>
+<field name="KDMAT">17805005002727</field>
+<field name="ZDMAT">000339860</field>
+<field name="ZVENDOR">4586890</field>
+<field name="ZMENG">20</field>
+<field name="ZPREC">307060</field>
+<field name="NETWR">15353</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">30</field>
+<field name="ZPACL">3</field>
+</row>
+<row id="4">
+<field name="BSTKD">6800451768</field>
+<field name="POSNR">5</field>
+<field name="KDMAT">17805005003731</field>
+<field name="ZDMAT">000513667</field>
+<field name="ZVENDOR">23002</field>
+<field name="ZMENG">1</field>
+<field name="ZPREC">24420</field>
+<field name="NETWR">24420</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">30</field>
+<field name="ZPACL">3</field>
+</row>
+<row id="5">
+<field name="BSTKD">6800451768</field>
+<field name="POSNR">6</field>
+<field name="KDMAT">17805005003762</field>
+<field name="ZDMAT">000513670</field>
+<field name="ZVENDOR">23006</field>
+<field name="ZMENG">1</field>
+<field name="ZPREC">25750</field>
+<field name="NETWR">25750</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">25</field>
+<field name="ZPACL">3</field>
+</row>
+</table>
+<table name="T_DETAIL_ITEM">
+<row id="0">
+<field name="BSTKD">6800451768</field>
+<field name="POSNR">1</field>
+<field name="KDMAT">17805005000778</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC">ABSORBEDOR.DE.OLORES</field>
+</row>
+<row id="1">
+<field name="BSTKD">6800451768</field>
+<field name="POSNR">2</field>
+<field name="KDMAT">17805224000283</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC">BLANQUEADOR.ROPA</field>
+</row>
+<row id="2">
+<field name="BSTKD">6800451768</field>
+<field name="POSNR">3</field>
+<field name="KDMAT">17805005000365</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC">SET.CEPILLO.WC</field>
+</row>
+<row id="3">
+<field name="BSTKD">6800451768</field>
+<field name="POSNR">4</field>
+<field name="KDMAT">17805005002727</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC">ESPONJA ACAN REDX2</field>
+</row>
+<row id="4">
+<field name="BSTKD">6800451768</field>
+<field name="POSNR">5</field>
+<field name="KDMAT">17805005003731</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC">ESPONJA BANO PRO</field>
+</row>
+<row id="5">
+<field name="BSTKD">6800451768</field>
+<field name="POSNR">6</field>
+<field name="KDMAT">17805005003762</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC">PANO BANO PRO</field>
+</row>
+</table>
+<table name="T_DETAIL_INTER"/>
+</tables>
+</bapirfc>
+<bapirfc name="ZMFSD_0001">
+<tables>
+<table name="T_HEADER">
+<row id="0">
+<field name="BSTKD">6800451776</field>
+<field name="BSTDK">20150401</field>
+<field name="BSTDK_E">20150409</field>
+<field name="VDATU">20150401</field>
+<field name="ZDEP">13</field>
+<field name="ZTPO">33</field>
+<field name="ZMPO">POS REPLEN</field>
+<field name="WAERK">CLP</field>
+<field name="ZTERM">3</field>
+<field name="ZMODP">D</field>
+</row>
+</table>
+<table name="T_HEADER_INTER">
+<row id="0">
+<field name="BSTKD">6800451776</field>
+<field name="ZTIPO">BY</field>
+<field name="EXPNR">7807900001686</field>
+<field name="NAME1">DISTRIBUTION CENTER 6009</field>
+<field name="ZVENDOR"/>
+</row>
+<row id="1">
+<field name="BSTKD">6800451776</field>
+<field name="ZTIPO">SF</field>
+<field name="EXPNR">007822134</field>
+<field name="NAME1">FIBRO CHILE SA</field>
+<field name="ZVENDOR">007822134</field>
+</row>
+</table>
+<table name="T_DETAIL_GRAL">
+<row id="0">
+<field name="BSTKD">6800451776</field>
+<field name="POSNR">1</field>
+<field name="KDMAT">17805005001935</field>
+<field name="ZDMAT">000237167</field>
+<field name="ZVENDOR">1389678</field>
+<field name="ZMENG">1</field>
+<field name="ZPREC">6625</field>
+<field name="NETWR">6625</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">12</field>
+<field name="ZPACL">3</field>
+</row>
+<row id="1">
+<field name="BSTKD">6800451776</field>
+<field name="POSNR">2</field>
+<field name="KDMAT">18008805009531</field>
+<field name="ZDMAT">000242949</field>
+<field name="ZVENDOR">488891</field>
+<field name="ZMENG">13</field>
+<field name="ZPREC">217035</field>
+<field name="NETWR">16695</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">12</field>
+<field name="ZPACL">3</field>
+</row>
+<row id="2">
+<field name="BSTKD">6800451776</field>
+<field name="POSNR">3</field>
+<field name="KDMAT">17805005001102</field>
+<field name="ZDMAT">000243764</field>
+<field name="ZVENDOR">3969724</field>
+<field name="ZMENG">36</field>
+<field name="ZPREC">536616</field>
+<field name="NETWR">14906</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">30</field>
+<field name="ZPACL">3</field>
+</row>
+<row id="3">
+<field name="BSTKD">6800451776</field>
+<field name="POSNR">4</field>
+<field name="KDMAT">27805005050084</field>
+<field name="ZDMAT">000243825</field>
+<field name="ZVENDOR">508759</field>
+<field name="ZMENG">8</field>
+<field name="ZPREC">341848</field>
+<field name="NETWR">42731</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">100</field>
+<field name="ZPACL">3</field>
+</row>
+<row id="4">
+<field name="BSTKD">6800451776</field>
+<field name="POSNR">5</field>
+<field name="KDMAT">17805005000570</field>
+<field name="ZDMAT">000243833</field>
+<field name="ZVENDOR">3827468</field>
+<field name="ZMENG">30</field>
+<field name="ZPREC">994950</field>
+<field name="NETWR">33165</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">30</field>
+<field name="ZPACL">3</field>
+</row>
+<row id="5">
+<field name="BSTKD">6800451776</field>
+<field name="POSNR">6</field>
+<field name="KDMAT">17805005020356</field>
+<field name="ZDMAT">000243946</field>
+<field name="ZVENDOR">2666518</field>
+<field name="ZMENG">10</field>
+<field name="ZPREC">159790</field>
+<field name="NETWR">15979</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">24</field>
+<field name="ZPACL">3</field>
+</row>
+<row id="6">
+<field name="BSTKD">6800451776</field>
+<field name="POSNR">7</field>
+<field name="KDMAT">33245421944122</field>
+<field name="ZDMAT">000243965</field>
+<field name="ZVENDOR">2668024</field>
+<field name="ZMENG">1</field>
+<field name="ZPREC">15503</field>
+<field name="NETWR">15503</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">24</field>
+<field name="ZPACL">3</field>
+</row>
+<row id="7">
+<field name="BSTKD">6800451776</field>
+<field name="POSNR">8</field>
+<field name="KDMAT">33245421944146</field>
+<field name="ZDMAT">000243969</field>
+<field name="ZVENDOR">2668031</field>
+<field name="ZMENG">8</field>
+<field name="ZPREC">124024</field>
+<field name="NETWR">15503</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">24</field>
+<field name="ZPACL">3</field>
+</row>
+<row id="8">
+<field name="BSTKD">6800451776</field>
+<field name="POSNR">9</field>
+<field name="KDMAT">17805005002352</field>
+<field name="ZDMAT">000258682</field>
+<field name="ZVENDOR">1564952</field>
+<field name="ZMENG">9</field>
+<field name="ZPREC">118260</field>
+<field name="NETWR">13140</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">12</field>
+<field name="ZPACL">3</field>
+</row>
+<row id="9">
+<field name="BSTKD">6800451776</field>
+<field name="POSNR">10</field>
+<field name="KDMAT">18008805008060</field>
+<field name="ZDMAT">000258706</field>
+<field name="ZVENDOR">489065</field>
+<field name="ZMENG">4</field>
+<field name="ZPREC">12480</field>
+<field name="NETWR">3120</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">12</field>
+<field name="ZPACL">3</field>
+</row>
+<row id="10">
+<field name="BSTKD">6800451776</field>
+<field name="POSNR">11</field>
+<field name="KDMAT">17805005001416</field>
+<field name="ZDMAT">000258870</field>
+<field name="ZVENDOR">1987263</field>
+<field name="ZMENG">5</field>
+<field name="ZPREC">66250</field>
+<field name="NETWR">13250</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">12</field>
+<field name="ZPACL">3</field>
+</row>
+<row id="11">
+<field name="BSTKD">6800451776</field>
+<field name="POSNR">12</field>
+<field name="KDMAT">17805005001430</field>
+<field name="ZDMAT">000258879</field>
+<field name="ZVENDOR">1987553</field>
+<field name="ZMENG">1</field>
+<field name="ZPREC">13250</field>
+<field name="NETWR">13250</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">12</field>
+<field name="ZPACL">3</field>
+</row>
+<row id="12">
+<field name="BSTKD">6800451776</field>
+<field name="POSNR">13</field>
+<field name="KDMAT">17805005505136</field>
+<field name="ZDMAT">000259546</field>
+<field name="ZVENDOR">1983722</field>
+<field name="ZMENG">192</field>
+<field name="ZPREC">2133504</field>
+<field name="NETWR">11112</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">30</field>
+<field name="ZPACL">3</field>
+</row>
+<row id="13">
+<field name="BSTKD">6800451776</field>
+<field name="POSNR">14</field>
+<field name="KDMAT">17805005051312</field>
+<field name="ZDMAT">000259556</field>
+<field name="ZVENDOR">1983739</field>
+<field name="ZMENG">96</field>
+<field name="ZPREC">1287936</field>
+<field name="NETWR">13416</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">30</field>
+<field name="ZPACL">3</field>
+</row>
+<row id="14">
+<field name="BSTKD">6800451776</field>
+<field name="POSNR">15</field>
+<field name="KDMAT">17805005020363</field>
+<field name="ZDMAT">000259585</field>
+<field name="ZVENDOR">281430</field>
+<field name="ZMENG">2</field>
+<field name="ZPREC">31958</field>
+<field name="NETWR">15979</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">24</field>
+<field name="ZPACL">3</field>
+</row>
+<row id="15">
+<field name="BSTKD">6800451776</field>
+<field name="POSNR">16</field>
+<field name="KDMAT">18008805008121</field>
+<field name="ZDMAT">000259874</field>
+<field name="ZVENDOR">508742</field>
+<field name="ZMENG">40</field>
+<field name="ZPREC">736000</field>
+<field name="NETWR">18400</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">6</field>
+<field name="ZPACL">3</field>
+</row>
+<row id="16">
+<field name="BSTKD">6800451776</field>
+<field name="POSNR">17</field>
+<field name="KDMAT">17805005050025</field>
+<field name="ZDMAT">000259887</field>
+<field name="ZVENDOR">38614</field>
+<field name="ZMENG">28</field>
+<field name="ZPREC">1182552</field>
+<field name="NETWR">42234</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">50</field>
+<field name="ZPACL">3</field>
+</row>
+<row id="17">
+<field name="BSTKD">6800451776</field>
+<field name="POSNR">18</field>
+<field name="KDMAT">17805005000594</field>
+<field name="ZDMAT">000260277</field>
+<field name="ZVENDOR">3854822</field>
+<field name="ZMENG">3</field>
+<field name="ZPREC">32715</field>
+<field name="NETWR">10905</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">12</field>
+<field name="ZPACL">3</field>
+</row>
+<row id="18">
+<field name="BSTKD">6800451776</field>
+<field name="POSNR">19</field>
+<field name="KDMAT">17805224000481</field>
+<field name="ZDMAT">000260559</field>
+<field name="ZVENDOR">1616798</field>
+<field name="ZMENG">17</field>
+<field name="ZPREC">302736</field>
+<field name="NETWR">17808</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">16</field>
+<field name="ZPACL">3</field>
+</row>
+<row id="19">
+<field name="BSTKD">6800451776</field>
+<field name="POSNR">20</field>
+<field name="KDMAT">18008805095411</field>
+<field name="ZDMAT">000260692</field>
+<field name="ZVENDOR">488907</field>
+<field name="ZMENG">30</field>
+<field name="ZPREC">1216350</field>
+<field name="NETWR">40545</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">24</field>
+<field name="ZPACL">3</field>
+</row>
+<row id="20">
+<field name="BSTKD">6800451776</field>
+<field name="POSNR">21</field>
+<field name="KDMAT">18008805006073</field>
+<field name="ZDMAT">000260699</field>
+<field name="ZVENDOR">488983</field>
+<field name="ZMENG">27</field>
+<field name="ZPREC">608526</field>
+<field name="NETWR">22538</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">12</field>
+<field name="ZPACL">3</field>
+</row>
+<row id="21">
+<field name="BSTKD">6800451776</field>
+<field name="POSNR">22</field>
+<field name="KDMAT">17805005000587</field>
+<field name="ZDMAT">000260824</field>
+<field name="ZVENDOR">3854839</field>
+<field name="ZMENG">2</field>
+<field name="ZPREC">30528</field>
+<field name="NETWR">15264</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">12</field>
+<field name="ZPACL">3</field>
+</row>
+<row id="22">
+<field name="BSTKD">6800451776</field>
+<field name="POSNR">23</field>
+<field name="KDMAT">17805005002697</field>
+<field name="ZDMAT">000326624</field>
+<field name="ZVENDOR">4730194</field>
+<field name="ZMENG">60</field>
+<field name="ZPREC">529200</field>
+<field name="NETWR">8820</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">12</field>
+<field name="ZPACL">3</field>
+</row>
+<row id="23">
+<field name="BSTKD">6800451776</field>
+<field name="POSNR">24</field>
+<field name="KDMAT">17805005003298</field>
+<field name="ZDMAT">000454558</field>
+<field name="ZVENDOR">5703470</field>
+<field name="ZMENG">18</field>
+<field name="ZPREC">380592</field>
+<field name="NETWR">21144</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">12</field>
+<field name="ZPACL">3</field>
+</row>
+<row id="24">
+<field name="BSTKD">6800451776</field>
+<field name="POSNR">25</field>
+<field name="KDMAT">17805005001966</field>
+<field name="ZDMAT">000485704</field>
+<field name="ZVENDOR">020PACK</field>
+<field name="ZMENG">60</field>
+<field name="ZPREC">698400</field>
+<field name="NETWR">11640</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">20</field>
+<field name="ZPACL">3</field>
+</row>
+<row id="25">
+<field name="BSTKD">6800451776</field>
+<field name="POSNR">26</field>
+<field name="KDMAT">17805005003618</field>
+<field name="ZDMAT">000507107</field>
+<field name="ZVENDOR">654654</field>
+<field name="ZMENG">19</field>
+<field name="ZPREC">528960</field>
+<field name="NETWR">27840</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">48</field>
+<field name="ZPACL">3</field>
+</row>
+<row id="26">
+<field name="BSTKD">6800451776</field>
+<field name="POSNR">27</field>
+<field name="KDMAT">17805005003892</field>
+<field name="ZDMAT">000526163</field>
+<field name="ZVENDOR">22042</field>
+<field name="ZMENG">9</field>
+<field name="ZPREC">364500</field>
+<field name="NETWR">40500</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">50</field>
+<field name="ZPACL">3</field>
+</row>
+</table>
+<table name="T_DETAIL_ITEM">
+<row id="0">
+<field name="BSTKD">6800451776</field>
+<field name="POSNR">1</field>
+<field name="KDMAT">17805005001935</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC">MULTIUSO RECARGA ECO</field>
+</row>
+<row id="1">
+<field name="BSTKD">6800451776</field>
+<field name="POSNR">2</field>
+<field name="KDMAT">18008805009531</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC">LAVA.VIDRIOS.MANUAL</field>
+</row>
+<row id="2">
+<field name="BSTKD">6800451776</field>
+<field name="POSNR">3</field>
+<field name="KDMAT">17805005001102</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC">ESPONJA LISA COLOR</field>
+</row>
+<row id="3">
+<field name="BSTKD">6800451776</field>
+<field name="POSNR">4</field>
+<field name="KDMAT">27805005050084</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC">PANO.SINTETICO.X1</field>
+</row>
+<row id="4">
+<field name="BSTKD">6800451776</field>
+<field name="POSNR">5</field>
+<field name="KDMAT">17805005000570</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC">PANO.CELULOSA.X6</field>
+</row>
+<row id="5">
+<field name="BSTKD">6800451776</field>
+<field name="POSNR">6</field>
+<field name="KDMAT">17805005020356</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC">GUANTES AFELPADOS ME</field>
+</row>
+<row id="6">
+<field name="BSTKD">6800451776</field>
+<field name="POSNR">7</field>
+<field name="KDMAT">33245421944122</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC">GUANTES SENSIBLE PEQ</field>
+</row>
+<row id="7">
+<field name="BSTKD">6800451776</field>
+<field name="POSNR">8</field>
+<field name="KDMAT">33245421944146</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC">GUANTES SENSIBLE MED</field>
+</row>
+<row id="8">
+<field name="BSTKD">6800451776</field>
+<field name="POSNR">9</field>
+<field name="KDMAT">17805005002352</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC">BRISSY FRESCURA FLOR</field>
+</row>
+<row id="9">
+<field name="BSTKD">6800451776</field>
+<field name="POSNR">10</field>
+<field name="KDMAT">18008805008060</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC">ESCOBILLA.PLASTICA</field>
+</row>
+<row id="10">
+<field name="BSTKD">6800451776</field>
+<field name="POSNR">11</field>
+<field name="KDMAT">17805005001416</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC">ANTIGRASA ECOLOGICO</field>
+</row>
+<row id="11">
+<field name="BSTKD">6800451776</field>
+<field name="POSNR">12</field>
+<field name="KDMAT">17805005001430</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC">MULTIUSO ECOLOGICO</field>
+</row>
+<row id="12">
+<field name="BSTKD">6800451776</field>
+<field name="POSNR">13</field>
+<field name="KDMAT">17805005505136</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC">ESPONJA.LISA.ESTANDA</field>
+</row>
+<row id="13">
+<field name="BSTKD">6800451776</field>
+<field name="POSNR">14</field>
+<field name="KDMAT">17805005051312</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC">ESPONJA.ACANALADA.3X</field>
+</row>
+<row id="14">
+<field name="BSTKD">6800451776</field>
+<field name="POSNR">15</field>
+<field name="KDMAT">17805005020363</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC">GUANTES.AFELPADO.GRA</field>
+</row>
+<row id="15">
+<field name="BSTKD">6800451776</field>
+<field name="POSNR">16</field>
+<field name="KDMAT">18008805008121</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC">BALDE.C/ESTRUJADOR</field>
+</row>
+<row id="16">
+<field name="BSTKD">6800451776</field>
+<field name="POSNR">17</field>
+<field name="KDMAT">17805005050025</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC">TRAPERO.SUELO.TIPO.S</field>
+</row>
+<row id="17">
+<field name="BSTKD">6800451776</field>
+<field name="POSNR">18</field>
+<field name="KDMAT">17805005000594</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC">LIMPIA UNIONES AZULE</field>
+</row>
+<row id="18">
+<field name="BSTKD">6800451776</field>
+<field name="POSNR">19</field>
+<field name="KDMAT">17805224000481</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC">BLANQUEADOR.ULTRA.RO</field>
+</row>
+<row id="19">
+<field name="BSTKD">6800451776</field>
+<field name="POSNR">20</field>
+<field name="KDMAT">18008805095411</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC">LAVA.VIDRIOS</field>
+</row>
+<row id="20">
+<field name="BSTKD">6800451776</field>
+<field name="POSNR">21</field>
+<field name="KDMAT">18008805006073</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC">SET.CEPILLO.WC</field>
+</row>
+<row id="21">
+<field name="BSTKD">6800451776</field>
+<field name="POSNR">22</field>
+<field name="KDMAT">17805005000587</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC">ELIMINADOR SARRO COC</field>
+</row>
+<row id="22">
+<field name="BSTKD">6800451776</field>
+<field name="POSNR">23</field>
+<field name="KDMAT">17805005002697</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC">DESTAPA CANERIA LIQ</field>
+</row>
+<row id="23">
+<field name="BSTKD">6800451776</field>
+<field name="POSNR">24</field>
+<field name="KDMAT">17805005003298</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC">BALDE C/ ESCURRIDOR</field>
+</row>
+<row id="24">
+<field name="BSTKD">6800451776</field>
+<field name="POSNR">25</field>
+<field name="KDMAT">17805005001966</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC">ESPONJA STAND X 8</field>
+</row>
+<row id="25">
+<field name="BSTKD">6800451776</field>
+<field name="POSNR">26</field>
+<field name="KDMAT">17805005003618</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC">ESPONJA BACT COBRE</field>
+</row>
+<row id="26">
+<field name="BSTKD">6800451776</field>
+<field name="POSNR">27</field>
+<field name="KDMAT">17805005003892</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC">ESPONJA LASER 4UN</field>
+</row>
+</table>
+<table name="T_DETAIL_INTER"/>
+</tables>
+</bapirfc>
+<bapirfc name="ZMFSD_0001">
+<tables>
+<table name="T_HEADER">
+<row id="0">
+<field name="BSTKD">9750394786</field>
+<field name="BSTDK">20150401</field>
+<field name="BSTDK_E">20150407</field>
+<field name="VDATU">20150401</field>
+<field name="ZDEP">04</field>
+<field name="ZTPO">33</field>
+<field name="ZMPO">POS REPLEN</field>
+<field name="WAERK">CLP</field>
+<field name="ZTERM">3</field>
+<field name="ZMODP">D</field>
+</row>
+</table>
+<table name="T_HEADER_INTER">
+<row id="0">
+<field name="BSTKD">9750394786</field>
+<field name="ZTIPO">BY</field>
+<field name="EXPNR">7807900001686</field>
+<field name="NAME1">DISTRIBUTION CENTER 6009</field>
+<field name="ZVENDOR"/>
+</row>
+<row id="1">
+<field name="BSTKD">9750394786</field>
+<field name="ZTIPO">SF</field>
+<field name="EXPNR">007822040</field>
+<field name="NAME1">FIBRO CHILE SA</field>
+<field name="ZVENDOR">007822040</field>
+</row>
+</table>
+<table name="T_DETAIL_GRAL">
+<row id="0">
+<field name="BSTKD">9750394786</field>
+<field name="POSNR">1</field>
+<field name="KDMAT">17805005000372</field>
+<field name="ZDMAT">000270462</field>
+<field name="ZVENDOR">334372</field>
+<field name="ZMENG">18</field>
+<field name="ZPREC">154440</field>
+<field name="NETWR">8580</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">12</field>
+<field name="ZPACL">3</field>
+</row>
+</table>
+<table name="T_DETAIL_ITEM">
+<row id="0">
+<field name="BSTKD">9750394786</field>
+<field name="POSNR">1</field>
+<field name="KDMAT">17805005000372</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC">BOLSAS.TAPA.FACIL</field>
+</row>
+</table>
+<table name="T_DETAIL_INTER"/>
+</tables>
+</bapirfc>
+<bapirfc name="ZMFSD_0001">
+<tables>
+<table name="T_HEADER">
+<row id="0">
+<field name="BSTKD">9750394788</field>
+<field name="BSTDK">20150401</field>
+<field name="BSTDK_E">20150408</field>
+<field name="VDATU">20150401</field>
+<field name="ZDEP">04</field>
+<field name="ZTPO">33</field>
+<field name="ZMPO">POS REPLEN</field>
+<field name="WAERK">CLP</field>
+<field name="ZTERM">3</field>
+<field name="ZMODP">D</field>
+</row>
+</table>
+<table name="T_HEADER_INTER">
+<row id="0">
+<field name="BSTKD">9750394788</field>
+<field name="ZTIPO">BY</field>
+<field name="EXPNR">7807900001686</field>
+<field name="NAME1">DISTRIBUTION CENTER 6009</field>
+<field name="ZVENDOR"/>
+</row>
+<row id="1">
+<field name="BSTKD">9750394788</field>
+<field name="ZTIPO">SF</field>
+<field name="EXPNR">007822044</field>
+<field name="NAME1">FIBRO CHILE SA</field>
+<field name="ZVENDOR">007822044</field>
+</row>
+</table>
+<table name="T_DETAIL_GRAL">
+<row id="0">
+<field name="BSTKD">9750394788</field>
+<field name="POSNR">1</field>
+<field name="KDMAT">17805005040101</field>
+<field name="ZDMAT">000259847</field>
+<field name="ZVENDOR">842808</field>
+<field name="ZMENG">48</field>
+<field name="ZPREC">1229616</field>
+<field name="NETWR">25617</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">50</field>
+<field name="ZPACL">3</field>
+</row>
+<row id="1">
+<field name="BSTKD">9750394788</field>
+<field name="POSNR">2</field>
+<field name="KDMAT">17805005000136</field>
+<field name="ZDMAT">000259861</field>
+<field name="ZVENDOR">2763477</field>
+<field name="ZMENG">120</field>
+<field name="ZPREC">2895120</field>
+<field name="NETWR">24126</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">50</field>
+<field name="ZPACL">3</field>
+</row>
+<row id="2">
+<field name="BSTKD">9750394788</field>
+<field name="POSNR">3</field>
+<field name="KDMAT">17805005000723</field>
+<field name="ZDMAT">000259971</field>
+<field name="ZVENDOR">1497090</field>
+<field name="ZMENG">24</field>
+<field name="ZPREC">224328</field>
+<field name="NETWR">9347</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">25</field>
+<field name="ZPACL">3</field>
+</row>
+<row id="3">
+<field name="BSTKD">9750394788</field>
+<field name="POSNR">4</field>
+<field name="KDMAT">17805005000648</field>
+<field name="ZDMAT">000260584</field>
+<field name="ZVENDOR">3928967</field>
+<field name="ZMENG">7</field>
+<field name="ZPREC">347816</field>
+<field name="NETWR">49688</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">40</field>
+<field name="ZPACL">3</field>
+</row>
+<row id="4">
+<field name="BSTKD">9750394788</field>
+<field name="POSNR">5</field>
+<field name="KDMAT">17805005040019</field>
+<field name="ZDMAT">000260601</field>
+<field name="ZVENDOR">842792</field>
+<field name="ZMENG">14</field>
+<field name="ZPREC">608678</field>
+<field name="NETWR">43477</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">50</field>
+<field name="ZPACL">3</field>
+</row>
+<row id="5">
+<field name="BSTKD">9750394788</field>
+<field name="POSNR">6</field>
+<field name="KDMAT">17805005035022</field>
+<field name="ZDMAT">000260609</field>
+<field name="ZVENDOR">12614</field>
+<field name="ZMENG">9</field>
+<field name="ZPREC">360432</field>
+<field name="NETWR">40048</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">50</field>
+<field name="ZPACL">3</field>
+</row>
+<row id="6">
+<field name="BSTKD">9750394788</field>
+<field name="POSNR">7</field>
+<field name="KDMAT">17591033014114</field>
+<field name="ZDMAT">000260622</field>
+<field name="ZVENDOR">1563450</field>
+<field name="ZMENG">11</field>
+<field name="ZPREC">285956</field>
+<field name="NETWR">25996</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">24</field>
+<field name="ZPACL">3</field>
+</row>
+<row id="7">
+<field name="BSTKD">9750394788</field>
+<field name="POSNR">8</field>
+<field name="KDMAT">17805005000976</field>
+<field name="ZDMAT">000453806</field>
+<field name="ZVENDOR">5700967</field>
+<field name="ZMENG">70</field>
+<field name="ZPREC">1669500</field>
+<field name="NETWR">23850</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">6</field>
+<field name="ZPACL">3</field>
+</row>
+</table>
+<table name="T_DETAIL_ITEM">
+<row id="0">
+<field name="BSTKD">9750394788</field>
+<field name="POSNR">1</field>
+<field name="KDMAT">17805005040101</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC">PAPEL.ALUMINIO.ECONO</field>
+</row>
+<row id="1">
+<field name="BSTKD">9750394788</field>
+<field name="POSNR">2</field>
+<field name="KDMAT">17805005000136</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC">PAPEL FILM ECONOMICO</field>
+</row>
+<row id="2">
+<field name="BSTKD">9750394788</field>
+<field name="POSNR">3</field>
+<field name="KDMAT">17805005000723</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC">ALUMINIO 4 METROS</field>
+</row>
+<row id="3">
+<field name="BSTKD">9750394788</field>
+<field name="POSNR">4</field>
+<field name="KDMAT">17805005000648</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC">BOLSA COLACIONES CIE</field>
+</row>
+<row id="4">
+<field name="BSTKD">9750394788</field>
+<field name="POSNR">5</field>
+<field name="KDMAT">17805005040019</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC">PAPEL.ALUMINIO.FOIL</field>
+</row>
+<row id="5">
+<field name="BSTKD">9750394788</field>
+<field name="POSNR">6</field>
+<field name="KDMAT">17805005035022</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC">FILM PVC</field>
+</row>
+<row id="6">
+<field name="BSTKD">9750394788</field>
+<field name="POSNR">7</field>
+<field name="KDMAT">17591033014114</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC">BOLSA CLIP SANDWICH</field>
+</row>
+<row id="7">
+<field name="BSTKD">9750394788</field>
+<field name="POSNR">8</field>
+<field name="KDMAT">17805005000976</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC">FILM PVC 300 MT</field>
+</row>
+</table>
+<table name="T_DETAIL_INTER"/>
+</tables>
+</bapirfc>
+</root>
