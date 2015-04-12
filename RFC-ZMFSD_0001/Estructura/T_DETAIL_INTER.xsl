@@ -26,23 +26,19 @@
 			
 				<!-- T_DETAIL_INTER -->
 				<table name="T_DETAIL_GRAL">
-					<xsl:for-each select="orders:Segment_group_25">
+					<xsl:for-each select="orders:Segment_group_25/orders:Segment_group_33">
 						<row id="{position() - 1}">
 							<field name="BSTKD"><!-- Nro de orden -->
-								<xsl:value-of select="parent::*/orders:BGM/c:e1004" />
+								<xsl:value-of select="parent::*/parent::*/orders:BGM/c:e1004" />
 							</field>							
 							<field name="POSNR"><!-- Posición -->
-								<xsl:value-of select="orders:LIN/c:e1082"/>
+								<xsl:value-of select="parent::*/orders:LIN/c:e1082"/>
 							</field>
-							<field name="KDMAT"><!-- DUN14 -->
-								<xsl:value-of select="orders:LIN/c:C212/c:e7140"/>
+							<field name="EXPNR"><!-- Int. Externo -->
+							<xsl:value-of select="orders:LOC/c:C517/c:e3225"/>
 							</field>
-							<field name="ZTIPO"><!-- tipo -->
-							</field>
-							<field name="ZCART"><!-- caracteristica -->
-							</field>
-							<field name="ZDESC"><!-- descripcion -->
-								<xsl:value-of select="orders:IMD/c:C273/c:e7008_-_-1"/>
+							<field name="ZMENG"><!-- Cantidad -->
+								<xsl:value-of select="orders:QTY/c:C186/c:e6060"/>
 							</field>
 						</row>
 					</xsl:for-each>
