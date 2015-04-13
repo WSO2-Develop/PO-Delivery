@@ -1,0 +1,138 @@
+<root>
+<bapirfc name="ZMFSD_0001">
+<tables>
+<table name="T_HEADER">
+<row id="0">
+<field name="BSTKD">1400349741</field>
+<field name="BSTDK">20150206</field>
+<field name="BSTDK_E">20150206</field>
+<field name="VDATU">20150212</field>
+<field name="ZDEP">92</field>
+<field name="ZTPO">03</field>
+<field name="ZMPO">COMPRA ALI</field>
+<field name="WAERK">CLP</field>
+<field name="ZTERM">3</field>
+<field name="ZMODP">D</field>
+</row>
+</table>
+<table name="T_HEADER_INTER">
+<row id="0">
+<field name="BSTKD">1400349741</field>
+<field name="ZTIPO">BY</field>
+<field name="EXPNR">77807900005882</field>
+<field name="NAME1">DISTRIBUTION CENTER # 6011</field>
+<field name="ZVENDOR"/>
+</row>
+<row id="1">
+<field name="BSTKD">1400349741</field>
+<field name="ZTIPO">SF</field>
+<field name="EXPNR"/>
+<field name="NAME1">AGROCOMMERCE S.A.</field>
+<field name="ZVENDOR">006002983</field>
+</row>
+</table>
+<table name="T_DETAIL_GRAL">
+<row id="0">
+<field name="BSTKD">1400349741</field>
+<field name="POSNR">1</field>
+<field name="KDMAT">7802636000781</field>
+<field name="ZDMAT">000427711</field>
+<field name="ZVENDOR">5465873</field>
+<field name="ZMENG">10</field>
+<field name="ZPREC">815000</field>
+<field name="NETWR">81500</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">1</field>
+<field name="ZPACL">3</field>
+</row>
+</table>
+<table name="T_DETAIL_ITEM">
+<row id="0">
+<field name="BSTKD">1400349741</field>
+<field name="POSNR">1</field>
+<field name="KDMAT">7802636000781</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC">POLLO REBOSADO</field>
+</row>
+</table>
+<table name="T_DETAIL_INTER">
+<row id="0">
+<field name="BSTKD">1400349741</field>
+<field name="POSNR">1</field>
+<field name="EXPNR"/>
+<field name="ZMENG"/>
+</row>
+</table>
+</tables>
+</bapirfc>
+<bapirfc name="ZMFSD_0001">
+<tables>
+<table name="T_HEADER">
+<row id="0">
+<field name="BSTKD">8850439299</field>
+<field name="BSTDK">20150206</field>
+<field name="BSTDK_E">20150206</field>
+<field name="VDATU">20150212</field>
+<field name="ZDEP">92</field>
+<field name="ZTPO">07</field>
+<field name="ZMPO">COMPRA ALI</field>
+<field name="WAERK">CLP</field>
+<field name="ZTERM">3</field>
+<field name="ZMODP">D</field>
+</row>
+</table>
+<table name="T_HEADER_INTER">
+<row id="0">
+<field name="BSTKD">8850439299</field>
+<field name="ZTIPO">FR</field>
+<field name="EXPNR">77807900001709</field>
+<field name="NAME1">WALMART STORES CHILE</field>
+<field name="ZVENDOR"/>
+</row>
+<row id="1">
+<field name="BSTKD">8850439299</field>
+<field name="ZTIPO">SF</field>
+<field name="EXPNR"/>
+<field name="NAME1">AGROCOMMERCE S.A.</field>
+<field name="ZVENDOR">006002983</field>
+</row>
+</table>
+<table name="T_DETAIL_GRAL">
+<row id="0">
+<field name="BSTKD">8850439299</field>
+<field name="POSNR">1</field>
+<field name="KDMAT">7802636000729</field>
+<field name="ZDMAT">000428320</field>
+<field name="ZVENDOR">2945194</field>
+<field name="ZMENG">50</field>
+<field name="ZPREC">3930000</field>
+<field name="NETWR">78600</field>
+<field name="ZTIPP">EUP</field>
+<field name="VRKME"/>
+<field name="ZNUMP">10</field>
+<field name="ZPACL">3</field>
+</row>
+</table>
+<table name="T_DETAIL_ITEM">
+<row id="0">
+<field name="BSTKD">8850439299</field>
+<field name="POSNR">1</field>
+<field name="KDMAT">7802636000729</field>
+<field name="ZTIPO"/>
+<field name="ZCART"/>
+<field name="ZDESC">ASADO ALE 1KG</field>
+</row>
+</table>
+<table name="T_DETAIL_INTER">
+<row id="0">
+<field name="BSTKD">8850439299</field>
+<field name="POSNR">1</field>
+<field name="EXPNR">77807900001709</field>
+<field name="ZMENG">50</field>
+</row>
+</table>
+</tables>
+</bapirfc>
+</root>
