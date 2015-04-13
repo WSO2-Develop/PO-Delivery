@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet version="1.0"
+<xsl:stylesheet version="2.0"
 	xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
 	xmlns:env="urn:org.milyn.edi.unedifact.v41" xmlns:orders="urn:org.milyn.edi.unedifact:un:d96a:orders"
 	xmlns:c="urn:org.milyn.edi.unedifact:un:d96a:common"
@@ -33,7 +33,7 @@
 							</field>
 							<xsl:for-each select="parent::*/orders:DTM/c:C507">
 								<xsl:choose>
-									<xsl:when test="c:e2005 = '137'">
+									<xsl:when test="c:e2005 = 137">
 										<field name="BSTDK"><!-- Fecha de pedido -->
 											<xsl:value-of select="c:e2380" />
 										</field>
@@ -43,7 +43,7 @@
 											<xsl:value-of select="c:e2380" />
 										</field>
 									</xsl:when>
-									<xsl:when test="c:e2005 = '10'">
+									<xsl:when test="c:e2005 = 10">
 										<field name="VDATU"><!-- Fecha de despacho -->
 											<xsl:value-of select="c:e2380" />
 										</field>
@@ -63,13 +63,12 @@
 											<xsl:value-of select="c:e1154" />
 										</field>
 									</xsl:when>
-									<xsl:otherwise>
-									<!-- <xsl:when test="c:e1153 = 'PD'"> -->
+									<xsl:when test="c:e1153 = 'PD'">
 										<field name="ZMPO"><!-- Descripcion de Orden de compra -->
 											<xsl:value-of select="c:e1154" />
 										</field>
-									<!-- </xsl:when> -->
-									</xsl:otherwise>
+									</xsl:when>
+									<xsl:otherwise />
 								</xsl:choose>
 							</xsl:for-each>
 							<field name="WAERK"><!-- Moneda -->
@@ -103,60 +102,53 @@
 								<field name="EXPNR"><!-- Int. Externo --> 
 									<xsl:if test="parent::*/orders:Segment_group_1/orders:RFF/c:C506/c:e1154= 73">
 										<xsl:if test="orders:NAD/c:e3035 = 'ST'">
-											<xsl:text>7</xsl:text><!-- El codigo de local contiene un 7 de mas en SAP-->
 											<xsl:value-of select="orders:NAD/c:C082/c:e3039" />
 										</xsl:if>
 										<xsl:if test="orders:NAD/c:e3035 = 'BT'">
-											<xsl:text>7</xsl:text><!-- El codigo de local contiene un 7 de mas en SAP-->
 											<xsl:value-of select="orders:NAD/c:C082/c:e3039" />
 										</xsl:if>
 										<xsl:if test="orders:NAD/c:e3035 = 'SF'">
-											<!-- <xsl:value-of select="orders:Segment_group_3/orders:RFF/c:C506/c:e1154" /> -->
+											<xsl:value-of select="orders:Segment_group_3/orders:RFF/c:C506/c:e1154" />
 										</xsl:if>
 									</xsl:if>
 									<xsl:if test="parent::*/orders:Segment_group_1/orders:RFF/c:C506/c:e1154 = 20">
 										<xsl:if test="orders:NAD/c:e3035 = 'BY'">
-											<xsl:text>7</xsl:text><!-- El codigo de local contiene un 7 de mas en SAP-->
 											<xsl:value-of select="orders:NAD/c:C082/c:e3039" />
 										</xsl:if>
 										<xsl:if test="orders:NAD/c:e3035 = 'SF'">
-											<!-- <xsl:value-of select="orders:Segment_group_3/orders:RFF/c:C506/c:e1154" /> -->
+											<xsl:value-of select="orders:Segment_group_3/orders:RFF/c:C506/c:e1154" />
 										</xsl:if>
 									</xsl:if>
 									<xsl:if test="parent::*/orders:Segment_group_1/orders:RFF/c:C506/c:e1154 = 03">
 										<xsl:if test="orders:NAD/c:e3035 = 'BY'">
-											<xsl:text>7</xsl:text><!-- El codigo de local contiene un 7 de mas en SAP-->
 											<xsl:value-of select="orders:NAD/c:C082/c:e3039" />
 										</xsl:if>
 										<xsl:if test="orders:NAD/c:e3035 = 'SF'">
-											<!-- <xsl:value-of select="orders:Segment_group_3/orders:RFF/c:C506/c:e1154" /> -->
+											<xsl:value-of select="orders:Segment_group_3/orders:RFF/c:C506/c:e1154" />
 										</xsl:if>
 									</xsl:if>
 									<xsl:if test="parent::*/orders:Segment_group_1/orders:RFF/c:C506/c:e1154 = 33">
 										<xsl:if test="orders:NAD/c:e3035 = 'BY'">
-											<xsl:text>7</xsl:text><!-- El codigo de local contiene un 7 de mas en SAP-->
 											<xsl:value-of select="orders:NAD/c:C082/c:e3039" />
 										</xsl:if>
 										<xsl:if test="orders:NAD/c:e3035 = 'SF'">
-											<!-- <xsl:value-of select="orders:Segment_group_3/orders:RFF/c:C506/c:e1154" /> -->
+											<xsl:value-of select="orders:Segment_group_3/orders:RFF/c:C506/c:e1154" />
 										</xsl:if>
 									</xsl:if>
 									<xsl:if test="parent::*/orders:Segment_group_1/orders:RFF/c:C506/c:e1154 = 07">
 										<xsl:if test="orders:NAD/c:e3035 = 'FR'">
-											<xsl:text>7</xsl:text><!-- El codigo de local contiene un 7 de mas en SAP-->
 											<xsl:value-of select="parent::*/orders:Segment_group_25/orders:Segment_group_33/orders:LOC/c:C517/c:e3225" />
 										</xsl:if>
 										<xsl:if test="orders:NAD/c:e3035 = 'SF'">
-											<!-- <xsl:value-of select="orders:Segment_group_3/orders:RFF/c:C506/c:e1154" /> -->
+											<xsl:value-of select="orders:Segment_group_3/orders:RFF/c:C506/c:e1154" />
 										</xsl:if>
 									</xsl:if>
 									<xsl:if test="parent::*/orders:Segment_group_1/orders:RFF/c:C506/c:e1154 = 37">
 										<xsl:if test="orders:NAD/c:e3035 = 'FR'">
-											<xsl:text>7</xsl:text><!-- El codigo de local contiene un 7 de mas en SAP-->
 											<xsl:value-of select="parent::*/orders:Segment_group_25/orders:Segment_group_33/orders:LOC/c:C517/c:e3225" />
 										</xsl:if>
 										<xsl:if test="orders:NAD/c:e3035 = 'SF'">
-											<!-- <xsl:value-of select="orders:Segment_group_3/orders:RFF/c:C506/c:e1154" /> -->
+											<xsl:value-of select="orders:Segment_group_3/orders:RFF/c:C506/c:e1154" />
 										</xsl:if>
 									</xsl:if>
 								</field>
@@ -245,22 +237,19 @@
 
 				<!-- T_DETAIL_INTER -->
 				<table name="T_DETAIL_INTER">
-					<xsl:for-each select="parent::*/orders:ORDERS/orders:Segment_group_25">
+					<xsl:for-each select="orders:Segment_group_25/orders:Segment_group_33">
 						<row id="{position() - 1}">
 							<field name="BSTKD"><!-- Nro de orden -->
-								<xsl:value-of select="parent::*/orders:BGM/c:e1004" />
+								<xsl:value-of select="parent::*/parent::*/orders:BGM/c:e1004" />
 							</field>							
 							<field name="POSNR"><!-- Posición -->
-								<xsl:value-of select="orders:LIN/c:e1082"/>
+								<xsl:value-of select="parent::*/orders:LIN/c:e1082"/>
 							</field>
 							<field name="EXPNR"><!-- Int. Externo -->
-								<xsl:if test="orders:Segment_group_33/orders:LOC/c:C517/c:e3225">
-									<xsl:text>7</xsl:text><!-- El codigo de local contiene un 7 de mas en SAP-->
-								</xsl:if>
-								<xsl:value-of select="orders:Segment_group_33/orders:LOC/c:C517/c:e3225"/>
+							<xsl:value-of select="orders:LOC/c:C517/c:e3225"/>
 							</field>
 							<field name="ZMENG"><!-- Cantidad -->
-								<xsl:value-of select="orders:Segment_group_33/orders:QTY/c:C186/c:e6060"/>
+								<xsl:value-of select="orders:QTY/c:C186/c:e6060"/>
 							</field>
 						</row>
 					</xsl:for-each>
