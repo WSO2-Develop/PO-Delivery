@@ -245,24 +245,26 @@
 
 				<!-- T_DETAIL_INTER -->
 				<table name="T_DETAIL_INTER">
-					<xsl:for-each select="parent::*/orders:ORDERS/orders:Segment_group_25">
-						<row id="{position() - 1}">
-							<field name="BSTKD"><!-- Nro de orden -->
-								<xsl:value-of select="parent::*/orders:BGM/c:e1004" />
-							</field>							
-							<field name="POSNR"><!-- Posición -->
-								<xsl:value-of select="orders:LIN/c:e1082"/>
-							</field>
-							<field name="EXPNR"><!-- Int. Externo -->
-								<xsl:if test="orders:Segment_group_33/orders:LOC/c:C517/c:e3225">
-									<xsl:text>7</xsl:text><!-- El codigo de local contiene un 7 de mas en SAP-->
-								</xsl:if>
-								<xsl:value-of select="orders:Segment_group_33/orders:LOC/c:C517/c:e3225"/>
-							</field>
-							<field name="ZMENG"><!-- Cantidad -->
-								<xsl:value-of select="orders:Segment_group_33/orders:QTY/c:C186/c:e6060"/>
-							</field>
-						</row>
+					<xsl:for-each select="orders:Segment_group_25/orders:Segment_group_33">
+						<!-- <xsl:for-each select="orders:Segment_group_33"> -->
+							<row id="{position() - 1}">
+								<field name="BSTKD"><!-- Nro de orden -->
+									<xsl:value-of select="parent::*/parent::*/orders:BGM/c:e1004" />
+								</field>							
+								<field name="POSNR"><!-- Posición -->
+									<xsl:value-of select="parent::*/orders:LIN/c:e1082"/>
+								</field>
+								<field name="EXPNR"><!-- Int. Externo -->
+									<xsl:if test="orders:LOC/c:C517/c:e3225">
+										<xsl:text>7</xsl:text><!-- El codigo de local contiene un 7 de mas en SAP-->
+									</xsl:if>
+									<xsl:value-of select="orders:LOC/c:C517/c:e3225"/>
+								</field>
+								<field name="ZMENG"><!-- Cantidad -->
+									<xsl:value-of select="orders:QTY/c:C186/c:e6060"/>
+								</field>
+							</row>
+						<!-- </xsl:for-each> -->
 					</xsl:for-each>
 				</table>
 				<!-- -->
